@@ -12,9 +12,4 @@
     <bool name="query_refinements_two_columns">false</bool>
     <bool name="rtl_single_line_true">true</bool>
     <bool name="supports_rtl">false</bool>
-    <bool name="APKTOOL_DUMMY_1">false</bool>
-    <bool name="APKTOOL_DUMMY_6">false</bool>
-    <bool name="APKTOOL_DUMMY_8">false</bool>
-    <bool name="APKTOOL_DUMMY_9">false</bool>
-    <bool name="APKTOOL_DUMMY_f">false</bool>
 </resources>
