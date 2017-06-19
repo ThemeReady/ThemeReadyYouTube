@@ -1,0 +1,39 @@
+.class final Lvfo;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lvfv;
+
+
+# instance fields
+.field private synthetic a:Lvfn;
+
+
+# direct methods
+.method constructor <init>(Lvfn;)V
+    .locals 0
+
+    .prologue
+    .line 1
+    iput-object p1, p0, Lvfo;->a:Lvfn;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(JJ)V
+    .locals 1
+
+    .prologue
+    .line 2
+    iget-object v0, p0, Lvfo;->a:Lvfn;
+
+    invoke-virtual {v0, p1, p2, p3, p4}, Lvfn;->a(JJ)V
+
+    .line 3
+    return-void
+.end method

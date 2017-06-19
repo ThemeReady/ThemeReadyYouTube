@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="lc_thumbnail_button_orientation">@integer/orientation_horizontal</item>
+    <item type="integer" name="lc_thumbnail_preview_orientation">@integer/orientation_vertical</item>
+</resources>

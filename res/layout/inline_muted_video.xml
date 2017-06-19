@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" _xmlns:android="http://schemas.android.com/apk/res/android" _xmlns:yt="http://schemas.android.com/apk/res-auto" _xmlns:tools="http://schemas.android.com/tools" xmlns:_xmlns="xmlns"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout android:id="@id/thumbnail_layout" android:background="@drawable/bg_video_thumb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" res-auto:aspectRatio="@fraction/aspect_ratio_16_9_exact" xmlns:res-auto="http://schemas.android.com/apk/res-auto">
+        <ImageView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/accessibility_go_to_video" />
+        <ViewStub android:id="@id/watched_overlay_stub" android:layout="@layout/watched_overlay" android:inflatedId="@id/watched_overlay_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/offline_thumbnail_badge" android:layout="@layout/offline_thumbnail_badge" android:inflatedId="@id/offline_thumbnail_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginBottom="6.0dip" android:layout_marginStart="6.0dip" />
+        <com.google.android.apps.youtube.app.ui.DurationBadgeView android:layout_gravity="end|bottom|center" android:id="@id/duration" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" res-auto:robotoFont="light" style="@style/StandaloneDurationBadgesOverlay" />
+        <ViewStub android:layout_gravity="bottom" android:id="@id/resume_playback_overlay" android:layout="@layout/resume_playback_overlay" android:inflatedId="@id/resume_playback_overlay" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout>
+    <ViewStub android:id="@id/inline_metadata_stub" android:layout="@layout/inline_metadata_full" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

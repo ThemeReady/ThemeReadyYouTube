@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge _xmlns:android="http://schemas.android.com/apk/res/android" _xmlns:yt="http://schemas.android.com/apk/res-auto" xmlns:_xmlns="xmlns">
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/brand_interaction_thumbs_up" android:background="@drawable/brand_interaction_background" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/brand_interaction_thumbs_down" android:background="@drawable/brand_interaction_background" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</merge>

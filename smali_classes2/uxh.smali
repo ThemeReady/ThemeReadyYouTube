@@ -1,0 +1,312 @@
+.class public final Luxh;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lvdr;
+
+
+# static fields
+.field private static a:J
+
+
+# instance fields
+.field private b:Lvcw;
+
+.field private c:Luer;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 4
+
+    .prologue
+    .line 43
+    sget-object v0, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
+
+    const-wide/16 v2, 0x4
+
+    invoke-virtual {v0, v2, v3}, Ljava/util/concurrent/TimeUnit;->toSeconds(J)J
+
+    move-result-wide v0
+
+    sput-wide v0, Luxh;->a:J
+
+    return-void
+.end method
+
+.method public constructor <init>(Luer;Lvcw;)V
+    .locals 1
+
+    .prologue
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    invoke-static {p2}, Lacyx;->a(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lvcw;
+
+    iput-object v0, p0, Luxh;->b:Lvcw;
+
+    .line 3
+    invoke-static {p1}, Lacyx;->a(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Luer;
+
+    iput-object v0, p0, Luxh;->c:Luer;
+
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 2
+
+    .prologue
+    .line 38
+    iget-object v0, p0, Luxh;->c:Luer;
+
+    const-string v1, "offline_pas"
+
+    invoke-virtual {v0, v1}, Luer;->a(Ljava/lang/String;)V
+
+    .line 39
+    return-void
+.end method
+
+.method public final a(Ljava/lang/String;)V
+    .locals 8
+
+    .prologue
+    .line 5
+    invoke-static {p1}, Luxk;->a(Ljava/lang/String;)Landroid/os/Bundle;
+
+    move-result-object v0
+
+    .line 6
+    const-string v1, "forceSync"
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
+
+    .line 7
+    iget-object v1, p0, Luxh;->c:Luer;
+
+    const-string v2, "offline_pas"
+
+    iget-object v3, p0, Luxh;->c:Luer;
+
+    .line 8
+    invoke-static {v3}, Luxk;->b(Luer;)Lokx;
+
+    move-result-object v3
+
+    const-wide/16 v4, 0x0
+
+    const-wide/16 v6, 0x1
+
+    .line 9
+    invoke-interface {v3, v4, v5, v6, v7}, Lokx;->a(JJ)Lokx;
+
+    move-result-object v3
+
+    const/4 v4, 0x1
+
+    .line 10
+    invoke-interface {v3, v4}, Lokx;->a(Z)Lokx;
+
+    move-result-object v3
+
+    .line 11
+    invoke-interface {v3, v0}, Lokx;->a(Landroid/os/Bundle;)Lokx;
+
+    move-result-object v0
+
+    .line 12
+    invoke-interface {v0}, Lokx;->a()Lokx;
+
+    move-result-object v0
+
+    .line 13
+    invoke-virtual {v1, v2, v0}, Luer;->a(Ljava/lang/String;Lolc;)Z
+
+    .line 14
+    return-void
+.end method
+
+.method public final a(Ljava/lang/String;J)V
+    .locals 6
+
+    .prologue
+    const/4 v3, 0x1
+
+    .line 15
+    const-wide/16 v0, 0x0
+
+    cmp-long v0, p2, v0
+
+    if-lez v0, :cond_0
+
+    .line 16
+    iget-object v0, p0, Luxh;->c:Luer;
+
+    const-string v1, "offline_pas"
+
+    iget-object v2, p0, Luxh;->c:Luer;
+
+    .line 17
+    invoke-static {v2}, Luxk;->a(Luer;)Loky;
+
+    move-result-object v2
+
+    sget-wide v4, Luxh;->a:J
+
+    add-long/2addr v4, p2
+
+    .line 18
+    invoke-interface {v2, v4, v5}, Loky;->a(J)Loky;
+
+    move-result-object v2
+
+    sget-wide v4, Luxh;->a:J
+
+    .line 19
+    invoke-interface {v2, v4, v5}, Loky;->b(J)Loky;
+
+    move-result-object v2
+
+    .line 20
+    invoke-interface {v2, v3}, Loky;->a(Z)Loky;
+
+    move-result-object v2
+
+    .line 21
+    invoke-interface {v2, v3}, Loky;->b(Z)Loky;
+
+    move-result-object v2
+
+    .line 22
+    invoke-static {p1}, Luxk;->a(Ljava/lang/String;)Landroid/os/Bundle;
+
+    move-result-object v3
+
+    invoke-interface {v2, v3}, Loky;->a(Landroid/os/Bundle;)Loky;
+
+    move-result-object v2
+
+    .line 23
+    invoke-virtual {v0, v1, v2}, Luer;->a(Ljava/lang/String;Lolc;)Z
+
+    .line 24
+    iget-object v0, p0, Luxh;->b:Lvcw;
+
+    invoke-interface {v0, p1, p2, p3}, Lvcw;->b(Ljava/lang/String;J)V
+
+    .line 25
+    :cond_0
+    return-void
+.end method
+
+.method public final b(Ljava/lang/String;)V
+    .locals 8
+
+    .prologue
+    .line 26
+    iget-object v0, p0, Luxh;->b:Lvcw;
+
+    .line 27
+    invoke-interface {v0, p1}, Lvcw;->b(Ljava/lang/String;)J
+
+    move-result-wide v0
+
+    .line 28
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-lez v2, :cond_0
+
+    .line 29
+    iget-object v2, p0, Luxh;->c:Luer;
+
+    const-string v3, "offline_pas"
+
+    iget-object v4, p0, Luxh;->c:Luer;
+
+    .line 30
+    invoke-static {v4}, Luxk;->a(Luer;)Loky;
+
+    move-result-object v4
+
+    sget-wide v6, Luxh;->a:J
+
+    add-long/2addr v0, v6
+
+    .line 31
+    invoke-interface {v4, v0, v1}, Loky;->a(J)Loky;
+
+    move-result-object v0
+
+    sget-wide v4, Luxh;->a:J
+
+    .line 32
+    invoke-interface {v0, v4, v5}, Loky;->b(J)Loky;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    .line 33
+    invoke-interface {v0, v1}, Loky;->a(Z)Loky;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    .line 34
+    invoke-interface {v0, v1}, Loky;->b(Z)Loky;
+
+    move-result-object v0
+
+    .line 35
+    invoke-static {p1}, Luxk;->a(Ljava/lang/String;)Landroid/os/Bundle;
+
+    move-result-object v1
+
+    invoke-interface {v0, v1}, Loky;->a(Landroid/os/Bundle;)Loky;
+
+    move-result-object v0
+
+    .line 36
+    invoke-virtual {v2, v3, v0}, Luer;->a(Ljava/lang/String;Lolc;)Z
+
+    .line 37
+    :cond_0
+    return-void
+.end method
+
+.method public final c(Ljava/lang/String;)V
+    .locals 4
+
+    .prologue
+    .line 40
+    invoke-virtual {p0}, Luxh;->a()V
+
+    .line 41
+    iget-object v0, p0, Luxh;->b:Lvcw;
+
+    const-wide/16 v2, 0x0
+
+    invoke-interface {v0, p1, v2, v3}, Lvcw;->b(Ljava/lang/String;J)V
+
+    .line 42
+    return-void
+.end method

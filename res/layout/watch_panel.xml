@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge _xmlns:android="http://schemas.android.com/apk/res/android" _xmlns:yt="http://schemas.android.com/apk/res-auto" xmlns:_xmlns="xmlns">
+    <com.google.android.libraries.youtube.common.ui.LoadingFrameLayout android:id="@id/video_info_loading_layout" android:background="@color/primary_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/set_bar" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" res-auto:progressViewLayout="@layout/video_info_loading_preview" res-auto:spinnerTag="LATENCY_SPINNER_TAG_WATCH_NEXT_RESPONSE"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:res-auto="http://schemas.android.com/apk/res-auto">
+        <android.support.v7.widget.RecyclerView android:id="@id/watch_list" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@color/primary_background" android:divider="@null" android:dividerHeight="0.0dip" android:smoothScrollbar="false" />
+    </com.google.android.libraries.youtube.common.ui.LoadingFrameLayout>
+    <View android:id="@id/scrim" android:background="#88000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <include android:id="@id/set_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/set_bar" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" layout="@layout/set_list"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <include android:id="@id/set_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/set_bar"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <RelativeLayout android:id="@id/engagement_panel" android:background="@color/primary_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/conversation_live_chat_shadow_negative_height" layout="@layout/live_chat_drawer"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <ViewStub android:id="@id/info_cards_drawer" android:layout="@layout/watch_next_info_card_drawer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</merge>

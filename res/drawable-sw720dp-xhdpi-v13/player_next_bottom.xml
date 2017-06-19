@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:constantSize="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <inset android:drawable="@drawable/ic_vidcontrol_next_disabled" android:insetLeft="24.0dip" android:insetRight="24.0dip" android:insetTop="24.0dip" android:insetBottom="24.0dip" />
+    </item>
+    <item android:state_enabled="true">
+        <inset android:drawable="@drawable/ic_vidcontrol_next" android:insetLeft="24.0dip" android:insetRight="24.0dip" android:insetTop="24.0dip" android:insetBottom="24.0dip" />
+    </item>
+</selector>

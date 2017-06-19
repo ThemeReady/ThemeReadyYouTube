@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" _xmlns:android="http://schemas.android.com/apk/res/android" xmlns:_xmlns="xmlns"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/lc_enablement_dialog_margin_half">
+        <TextView android:textSize="@dimen/lc_enablement_dialog_title_font_size" android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lc_enable_live_streaming_signin_title" android:layout_toLeftOf="@id/cancel_button" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/cancel_button" android:layout_alignParentStart="true" />
+        <ImageButton android:id="@id/cancel_button" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_close_white_24" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/lc_enable_live_streaming_flow_cd" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.google.android.libraries.youtube.livecreation.ui.view.GoogleSsoWebView android:id="@id/enable_streaming_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_bar" />
+    <android.support.v4.widget.ContentLoadingProgressBar android:id="@id/url_loading_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/lc_enablement_dialog_margin" android:layout_centerInParent="true" style="?android:attr/progressBarStyle" />
+</RelativeLayout>
