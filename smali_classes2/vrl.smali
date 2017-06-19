@@ -145,7 +145,7 @@
 
     check-cast v0, Lvru;
 
-    const v3, -0x19dee9
+    const v3, -0x1
 
     .line 14
     invoke-static {v3}, Lvpb;->b(I)[F

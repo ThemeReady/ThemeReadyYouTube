@@ -527,4 +527,16 @@
     <color name="youtube_gray_dark">#ff555555</color>
     <color name="youtube_red">#ffcd201f</color>
     <color name="yt_light_blue">#ff7baaf7</color>
+	<!--TBO Code-->
+	<color name="promoted_text">#ff279cee</color>
+    <color name="live_chat_bg">#ff323232</color>
+    <color name="actiontextcolor">#ff22bbee</color>
+    <color name="drawable_tint">#ffffffff</color>
+    <color name="legend_used">#ff6ab9f8</color>
+    <color name="legend_free">#ffcccccc</color>
+    <color name="tab_highlight_color">#50000000</color>
+    <color name="btn_normal">#80222222</color>
+    <color name="red_text">#ffe62117</color>
+    <color name="more_comments_btn_bg">#e5167ac6</color>
+    <color name="quantum_bluegrey100">#ffcfd8dc</color>
 </resources>

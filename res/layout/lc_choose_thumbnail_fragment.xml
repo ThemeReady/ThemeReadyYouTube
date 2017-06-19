@@ -2,7 +2,7 @@
 <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" _xmlns:android="http://schemas.android.com/apk/res/android" _xmlns:yt="http://schemas.android.com/apk/res-auto" xmlns:_xmlns="xmlns"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
-        <RelativeLayout android:id="@id/choose_thumbnail_content" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/choose_thumbnail_content" android:background="@color/full_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <include android:id="@id/thumbnail_top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/lc_choose_thumbnail_fragment_top_bar" />
             <RelativeLayout android:id="@id/thumbnail_capture_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/thumbnail_top_bar">
                 <com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout android:id="@id/viewport_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lc_thumbnail_viewport_margin_top" android:layout_marginBottom="@dimen/lc_thumbnail_viewport_margin_bottom" res-auto:aspectRatio="@fraction/lc_aspect_ratio_16_9" xmlns:res-auto="http://schemas.android.com/apk/res-auto">

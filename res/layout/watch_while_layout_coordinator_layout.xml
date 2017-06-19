@@ -7,7 +7,7 @@
     <FrameLayout android:id="@id/fab_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <include layout="@layout/watch_while_fab_view" />
     </FrameLayout>
-    <com.google.android.apps.youtube.app.ui.actionbar.ElevatedAppBarLayout android:orientation="vertical" android:id="@id/appbar_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <com.google.android.apps.youtube.app.ui.actionbar.ElevatedAppBarLayout android:orientation="vertical" android:id="@id/appbar_layout" android:background="@color/full_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <com.google.android.apps.youtube.app.ui.actionbar.MainCollapsingToolbarLayout android:id="@id/toolbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" res-auto:layout_scrollFlags="enterAlways|scroll|snap" res-auto:scrimAnimationDuration="100" xmlns:res-auto="http://schemas.android.com/apk/res-auto">
             <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" res-auto:popupTheme="@style/ThemeOverlay.YouTube.Light" res-auto:theme="@style/ThemeOverlay.YouTube.ActionBar" />
             <View android:layout_gravity="bottom" android:id="@id/toolbar_compat_shadow" android:background="@color/compat_elevation_shadow_compat" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/compat_elevation_shadow_height" />

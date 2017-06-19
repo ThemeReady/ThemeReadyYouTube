@@ -54,7 +54,7 @@
     </style>
     <style name="AnnotationBannerTitleText">
         <item name="android:textSize">@dimen/small_font_size</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center|left</item>
         <item name="android:singleLine">true</item>
@@ -1079,7 +1079,7 @@
     </style>
     <style name="EndscreenElementText">
         <item name="android:textSize">@dimen/endscreen_element_text_size</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
         <item name="android:layout_marginLeft">@dimen/endscreen_element_padding_leftright</item>
         <item name="android:layout_marginTop">@dimen/endscreen_element_padding_topbottom</item>
         <item name="android:layout_marginRight">@dimen/endscreen_element_padding_leftright</item>
@@ -1110,11 +1110,11 @@
     </style>
     <style name="InfoCards">
         <item name="android:foreground">@drawable/info_card_selector</item>
-        <item name="cardBackgroundColor">@android:color/white</item>
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
     <style name="InfoCardsWatchNext">
         <item name="android:foreground">@drawable/info_card_selector</item>
-        <item name="cardBackgroundColor">@android:color/white</item>
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
     <style name="LcAlertDialog" parent="@style/Theme.AppCompat.Light.Dialog.Alert" />
     <style name="LcAlertDialog.TextAppearanceSubhead" parent="@style/TextAppearance.AppCompat.Subhead">
@@ -1145,12 +1145,12 @@
         <item name="colorAccent">@color/lc_accent</item>
     </style>
     <style name="LcStatusLabel">
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
         <item name="android:ellipsize">marquee</item>
         <item name="android:maxLines">2</item>
     </style>
     <style name="LcTextAppearance.Design.Hint" parent="@style/TextAppearance.Design.Hint">
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
     </style>
     <style name="LcWhiteControlStyle">
         <item name="colorControlActivated">@color/quantum_white_100</item>
@@ -1206,7 +1206,7 @@
         <item name="robotoFont">medium</item>
     </style>
     <style name="Mdx.PrefsButton" parent="@style/Widget.AppCompat.Button.Colored">
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
         <item name="colorButtonNormal">?colorAccent</item>
     </style>
     <style name="Mdx.PrefsCaption" parent="@style/Mdx">
@@ -1465,7 +1465,7 @@
     </style>
     <style name="ScrubbedPreviewTimestamp">
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Caption</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
     </style>
     <style name="SectionListDrawer" />
     <style name="SelectableItemForegroundCompat">
@@ -1490,14 +1490,14 @@
     </style>
     <style name="SpinnerItem" parent="@style/Widget.YouTube.TextView">
         <item name="android:textSize">18.0sp</item>
-        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColor">@color/quantum_black_text</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:paddingLeft">12.0dip</item>
         <item name="android:minHeight">48.0dip</item>
         <item name="android:maxLines">1</item>
     </style>
     <style name="SpinnerItem.Dropdown" parent="@style/SpinnerItem">
-        <item name="android:textColor">#ff333333</item>
+        <item name="android:textColor">@color/primary_font</item>
     </style>
     <style name="StandaloneAdBadges" parent="@style/BaseStandaloneBadges">
         <item name="android:paddingStart">5.0dip</item>
@@ -1524,7 +1524,7 @@
     </style>
     <style name="StatusBarEventContent.Title" parent="@style/StatusBarEventContent">
         <item name="android:textSize">18.0sp</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
     </style>
     <style name="TextAppearance.AppCompat" parent="@style/Base.TextAppearance.AppCompat" />
     <style name="TextAppearance.AppCompat.Body1" parent="@style/Base.TextAppearance.AppCompat.Body1" />
@@ -1751,7 +1751,7 @@
         <item name="android:windowBackground">?backgroundPrimaryInverse</item>
         <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
         <item name="colorPrimary">?backgroundPrimaryInverse</item>
-        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
         <item name="colorControlHighlight">@color/ripple_material_dark</item>
     </style>
     <style name="Theme.YouTube.Home" parent="@style/Theme.YouTube.Light.NoActionBar">
@@ -1818,7 +1818,7 @@
     </style>
     <style name="Theme.YouTube.YpcDialog" parent="@style/Theme.AppCompat.Light.Dialog">
         <item name="android:windowIsTranslucent">true</item>
-        <item name="android:background">@android:color/white</item>
+        <item name="android:background">@color/background_floating_material_light</item>
         <item name="colorAccent">@color/color_brand_primary_alternate</item>
     </style>
     <style name="Theme.YouTube.YpcTipJar" parent="@style/Theme.YouTube.Light.Dialog">
@@ -1873,7 +1873,7 @@
     </style>
     <style name="UnlimitedFamily">
         <item name="android:windowIsFloating">false</item>
-        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
     </style>
     <style name="VerificationDialogBodyTextStyle" parent="@style/TextAppearance.AppCompat.Medium" />
     <style name="VerificationDialogStyle" parent="@style/Theme.AppCompat.Light.Dialog.Alert" />

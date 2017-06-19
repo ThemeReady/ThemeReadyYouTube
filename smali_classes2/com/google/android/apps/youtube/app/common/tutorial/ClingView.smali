@@ -160,7 +160,7 @@
 
     .line 9
     :cond_0
-    const v0, -0x33ffdbae    # -3.3591624E7f
+    const v0, -0x34000000    # -3.3591624E7f
 
     goto :goto_0
 .end method
