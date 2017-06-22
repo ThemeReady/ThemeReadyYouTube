@@ -653,7 +653,7 @@
     <string name="overflow_captions_off">បិទ​</string>
     <string name="overflow_captions_on">បើក</string>
     <string name="overflow_quality">គុណភាព​</string>
-    <string name="overflow_report">របាយការណ៍</string>
+    <string name="overflow_report">រាយការណ៍</string>
     <string name="pause_and_buffer_mealbar_message">"បាន​ផ្អាក​វីដេអូ​​ដែល​​នៅ​តែ​បន្ត​ការ​ធ្វើ​បាហ្វឺ  បើ​អ្នក​ចាកចេញ​ពី​កម្មវិធី។"</string>
     <string name="pause_and_buffer_mealbar_title">បាហ្វឺ​ផ្ទៃ​ខាងក្រោយ</string>
     <string name="pause_and_buffer_notification_percentage">%1$d%%</string>

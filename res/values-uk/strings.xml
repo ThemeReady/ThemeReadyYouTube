@@ -877,7 +877,7 @@
     <string name="remove_watched_header_tooltip_text">Новинка! Тепер можна легко вилучити всі переглянуті відео з цього списку.</string>
     <string name="removed_from_watch_later">Вилучено зі списку \"Переглянути пізніше\"</string>
     <string name="reply_added">Відповідь додано</string>
-    <string name="report_button">Повідомити</string>
+    <string name="report_button">Поскаржитись</string>
     <string name="report_dialog_cancel">Скасувати</string>
     <string name="report_form_service_failed">Форма недоступна. Повторіть спробу.</string>
     <string name="report_response_ok">ОК</string>

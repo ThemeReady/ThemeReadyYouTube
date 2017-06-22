@@ -127,7 +127,7 @@
 
     check-cast v0, Lvru;
 
-    const v3, -0x1
+    const v3, -0x19dee9
 
     .line 11
     invoke-static {v3}, Lvpb;->b(I)[F
@@ -250,7 +250,7 @@
     .line 23
     iget-object v0, p0, Lvro;->f:Lvpb;
 
-    const v1, -0x1
+    const v1, -0x19dee9
 
     invoke-virtual {v0, v1}, Lvpb;->a(I)V
 

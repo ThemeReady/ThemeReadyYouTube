@@ -877,7 +877,7 @@
     <string name="remove_watched_header_tooltip_text">新功能！您现在可将所有观看过的视频从此列表中轻松移除。</string>
     <string name="removed_from_watch_later">已从“稍后观看”中移除</string>
     <string name="reply_added">已添加回复</string>
-    <string name="report_button">报告</string>
+    <string name="report_button">举报</string>
     <string name="report_dialog_cancel">取消</string>
     <string name="report_form_service_failed">暂时无法举报，请稍后重试。</string>
     <string name="report_response_ok">确定</string>

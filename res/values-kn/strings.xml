@@ -653,7 +653,7 @@
     <string name="overflow_captions_off">ಆಫ್</string>
     <string name="overflow_captions_on">ಆನ್</string>
     <string name="overflow_quality">ಗುಣಮಟ್ಟ</string>
-    <string name="overflow_report">ವರದಿ ಮಾಡು</string>
+    <string name="overflow_report">ವರದಿ ಮಾಡಿ</string>
     <string name="pause_and_buffer_mealbar_message">ನೀವು ಅಪ್ಲಿಕೇಶನ್ ತೊರೆದರೂ, ವಿರಾಮಗೊಳಿಸಿರುವ ವೀಡಿಯೊಗಳು ಬಫರ್ ಆಗುತ್ತಲಿರುತ್ತವೆ.</string>
     <string name="pause_and_buffer_mealbar_title">ಹಿನ್ನೆಲೆ ಬಫರ್</string>
     <string name="pause_and_buffer_notification_percentage">%1$d%%</string>
@@ -826,7 +826,7 @@
     <string name="remove_watched_header_tooltip_text">ಹೊಸತು! ವೀಕ್ಷಿಸಿದ ಎಲ್ಲಾ ವೀಡಿಯೊಗಳನ್ನು ಈ ಪಟ್ಟಿಯಿಂದ ಸುಲಭವಾಗಿ ತೆಗೆದುಹಾಕಿ.</string>
     <string name="removed_from_watch_later">ನಂತರ ವೀಕ್ಷಿಸು ನಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ</string>
     <string name="reply_added">ಪ್ರತ್ಯುತ್ತರ ಸೇರಿಸಲಾಗಿದೆ</string>
-    <string name="report_button">ವರದಿ ಮಾಡು</string>
+    <string name="report_button">ವರದಿ ಮಾಡಿ</string>
     <string name="report_dialog_cancel">ರದ್ದು</string>
     <string name="report_form_service_failed">ವರದಿ ಸೇವೆಯು ಲಭ್ಯವಿಲ್ಲ. ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="report_response_ok">ಸರಿ</string>

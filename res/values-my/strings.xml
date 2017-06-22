@@ -653,7 +653,7 @@
     <string name="overflow_captions_off">ပိတ်</string>
     <string name="overflow_captions_on">ဖွင့်</string>
     <string name="overflow_quality">အရည်အသွေး</string>
-    <string name="overflow_report">အစီရင်ခံရန်</string>
+    <string name="overflow_report">တိုင်ရန်</string>
     <string name="pause_and_buffer_mealbar_message">အက်ပ်မှ သင်ထွက်သွားလျှင် ခဏရပ်ထားသော ဗီဒီယိုများသည် ဒေတာကို ဆက်လက်ထိန်းသိမ်းထားပါမည်။</string>
     <string name="pause_and_buffer_mealbar_title">နောက်ခံ ဒေတာရယူချိန်</string>
     <string name="pause_and_buffer_notification_percentage">%1$d%%</string>
@@ -825,7 +825,7 @@
     <string name="remove_watched_header_tooltip_text">အသစ်။ ကြည့်ရှုပြီးသည့် ဗီဒီယိုများကို စာရင်းထဲမှ အလွယ်တကူ ဖယ်ရှားပါ။</string>
     <string name="removed_from_watch_later">နောက်မှကြည့်ရန်စာရင်းမှ ဖယ်ရှားပြီးပါပြီ</string>
     <string name="reply_added">ပြန်စာကို ထည့်လိုက်ပါပြီ</string>
-    <string name="report_button">အစီရင်ခံရန်</string>
+    <string name="report_button">တိုင်ရန်</string>
     <string name="report_dialog_cancel">မလုပ်တော့ရန်</string>
     <string name="report_form_service_failed">အစီရင်ခံ ဝန်ဆောင်မှုကို မရနိုင်ပါ။ ထပ်ကြိုးစားပါ။</string>
     <string name="report_response_ok">အိုကေ</string>

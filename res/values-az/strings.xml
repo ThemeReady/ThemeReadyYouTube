@@ -652,7 +652,7 @@ Saxlanmış video tapılmadı"</string>
     <string name="overflow_captions_off">DEAKTİV</string>
     <string name="overflow_captions_on">AKTİV</string>
     <string name="overflow_quality">Keyfiyyət</string>
-    <string name="overflow_report">Xəbər verin</string>
+    <string name="overflow_report">Şikayət edin</string>
     <string name="pause_and_buffer_mealbar_message">Durdurulmuş videolar Siz tətbiqi tərk edərkən bufer olunmağa davam edir.</string>
     <string name="pause_and_buffer_mealbar_title">Arxa fon buferi</string>
     <string name="pause_and_buffer_notification_percentage">%1$d%%</string>

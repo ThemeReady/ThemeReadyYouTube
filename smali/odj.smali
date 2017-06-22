@@ -45,7 +45,7 @@
 
 # virtual methods
 .method public final synthetic get()Ljava/lang/Object;
-    .locals 2
+    .locals 3
 
     .prologue
     .line 7
@@ -71,7 +71,9 @@
 
     .line 10
     :goto_0
-    invoke-static {v0, v1}, Loso;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/content/SharedPreferences;
+    const/4 v2, 0x0
+
+    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v0
 

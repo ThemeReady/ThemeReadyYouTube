@@ -653,7 +653,7 @@ Non se atoparon vídeos gardados"</string>
     <string name="overflow_captions_off">DESACTIVADOS</string>
     <string name="overflow_captions_on">ACTIVADOS</string>
     <string name="overflow_quality">Calidade</string>
-    <string name="overflow_report">Informar</string>
+    <string name="overflow_report">Denunciar</string>
     <string name="pause_and_buffer_mealbar_message">Os vídeos en pausa seguirán almacenándose no búfer se abandonas a aplicación.</string>
     <string name="pause_and_buffer_mealbar_title">Búfer en segundo plano</string>
     <string name="pause_and_buffer_notification_percentage">%1$d %%</string>
@@ -825,7 +825,7 @@ Non se atoparon vídeos gardados"</string>
     <string name="remove_watched_header_tooltip_text">Novidade! Elimina con facilidade todos os vídeos visualizados desta lista.</string>
     <string name="removed_from_watch_later">Quitáronse de Visualizar máis tarde</string>
     <string name="reply_added">Engadiuse a resposta</string>
-    <string name="report_button">Informar</string>
+    <string name="report_button">Denunciar</string>
     <string name="report_dialog_cancel">Cancelar</string>
     <string name="report_form_service_failed">O servizo de informes non está dispoñible. Téntao de novo.</string>
     <string name="report_response_ok">Aceptar</string>

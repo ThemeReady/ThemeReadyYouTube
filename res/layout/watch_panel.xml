@@ -2,7 +2,7 @@
 <merge _xmlns:android="http://schemas.android.com/apk/res/android" _xmlns:yt="http://schemas.android.com/apk/res-auto" xmlns:_xmlns="xmlns">
     <com.google.android.libraries.youtube.common.ui.LoadingFrameLayout android:id="@id/video_info_loading_layout" android:background="@color/primary_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/set_bar" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" res-auto:progressViewLayout="@layout/video_info_loading_preview" res-auto:spinnerTag="LATENCY_SPINNER_TAG_WATCH_NEXT_RESPONSE"
       xmlns:android="http://schemas.android.com/apk/res/android" xmlns:res-auto="http://schemas.android.com/apk/res-auto">
-        <android.support.v7.widget.RecyclerView android:id="@id/watch_list" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@color/full_transparent" android:divider="@null" android:dividerHeight="0.0dip" android:smoothScrollbar="false" />
+        <android.support.v7.widget.RecyclerView android:id="@id/watch_list" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@color/primary_background" android:divider="@null" android:dividerHeight="0.0dip" android:smoothScrollbar="false" />
     </com.google.android.libraries.youtube.common.ui.LoadingFrameLayout>
     <View android:id="@id/scrim" android:background="#88000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
       xmlns:android="http://schemas.android.com/apk/res/android" />

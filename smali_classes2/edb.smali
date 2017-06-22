@@ -258,7 +258,7 @@
     .line 16
     const-string v0, "youtube"
 
-    invoke-static {p1, v0}, Loso;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-virtual {p1, v0, v1}, Lfq;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v0
 

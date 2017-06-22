@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" _xmlns:android="http://schemas.android.com/apk/res/android" _xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:_xmlns="xmlns"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/choose_thumbnail_content" android:background="@color/full_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <RelativeLayout android:id="@id/choose_thumbnail_content" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <include android:id="@id/thumbnail_top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/lc_choose_thumbnail_fragment_top_bar" />
         <android.support.percent.PercentRelativeLayout android:id="@id/thumbnail_capture_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/thumbnail_top_bar">
             <FrameLayout android:id="@id/viewport_container" android:layout_marginBottom="@dimen/lc_thumbnail_viewport_margin_bottom" android:layout_centerHorizontal="true" res-auto:layout_widthPercent="@fraction/lc_thumbnail_viewport_width_percent" res-auto:layout_marginTopPercent="@fraction/lc_thumbnail_viewport_margin_top_percent" res-auto:layout_aspectRatio="@fraction/aspect_ratio_16_9" xmlns:res-auto="http://schemas.android.com/apk/res-auto">

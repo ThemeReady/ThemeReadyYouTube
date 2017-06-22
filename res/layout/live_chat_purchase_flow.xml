@@ -7,7 +7,7 @@
     </RelativeLayout>
     <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/error_container" android:padding="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
         <ImageView android:id="@id/error_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_error_white_36" android:importantForAccessibility="no" />
-        <TextView android:textSize="16.0sp" android:textColor="@color/quantum_white_secondary_text" android:id="@id/error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginBottom="15.0dip" android:text="@string/live_chat_purchase_flow_retry_message" />
-        <TextView android:textSize="14.0sp" android:textColor="@color/buy_price_focused" android:id="@id/retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/live_chat_purchase_flow_retry_button" android:textAllCaps="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#7fffffff" android:id="@id/error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginBottom="15.0dip" android:text="@string/live_chat_purchase_flow_retry_message" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff2196f3" android:id="@id/retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/live_chat_purchase_flow_retry_button" android:textAllCaps="true" />
     </LinearLayout>
 </RelativeLayout>

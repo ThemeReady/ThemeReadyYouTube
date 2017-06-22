@@ -56,8 +56,10 @@
 
     const-string v2, "ach_persisted_event_index"
 
+    const/4 v3, 0x0
+
     .line 8
-    invoke-static {p1, v2}, Loso;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-virtual {p1, v2, v3}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v2
 

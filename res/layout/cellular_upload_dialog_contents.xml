@@ -3,6 +3,6 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cellular_upload_dialog_message" style="@style/TextAppearance.AppCompat.Subhead" />
-        <CheckBox android:textColor="@color/secondary_font" android:id="@id/do_not_ask_again_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abc_dialog_padding_top_material" android:text="@string/cellular_upload_dialog_do_not_ask_again" />
+        <CheckBox android:textColor="?android:textColorSecondary" android:id="@id/do_not_ask_again_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abc_dialog_padding_top_material" android:text="@string/cellular_upload_dialog_do_not_ask_again" />
     </LinearLayout>
 </ScrollView>

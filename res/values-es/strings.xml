@@ -877,7 +877,7 @@ No hay vídeos guardados"</string>
     <string name="remove_watched_header_tooltip_text">¡Nuevo! Ahora puedes retirar de esta lista todos los vídeos que has visto.</string>
     <string name="removed_from_watch_later">Retirados de la lista Ver más tarde</string>
     <string name="reply_added">Se ha añadido la respuesta</string>
-    <string name="report_button">Notificar</string>
+    <string name="report_button">Denunciar</string>
     <string name="report_dialog_cancel">Cancelar</string>
     <string name="report_form_service_failed">Servicio de denuncia no disponible. Inténtalo de nuevo.</string>
     <string name="report_response_ok">Aceptar</string>

@@ -70,7 +70,7 @@
 
     move-result v0
 
-    .line 17
+    .line 16
     :goto_0
     return v0
 
@@ -122,7 +122,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 17
+    .line 16
     :goto_1
     const/4 v0, 0x1
 
@@ -130,29 +130,29 @@
 
     .line 14
     :cond_4
-    iget-object v0, p0, Ldhh;->d:Landroid/os/Handler;
-
-    iget-object v1, p0, Ldhh;->e:Ljava/lang/Runnable;
-
-    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {p0}, Ldhm;->b()V
 
     .line 15
     iget-object v0, p0, Ldhh;->b:Ldhj;
 
     invoke-interface {v0, p2}, Ldhj;->a(Landroid/view/MotionEvent;)V
 
-    .line 16
-    invoke-virtual {p0}, Ldhm;->b()V
-
     goto :goto_1
 .end method
 
 .method public final b()V
-    .locals 1
+    .locals 2
 
     .prologue
-    .line 18
+    .line 17
     invoke-super {p0}, Ldhm;->b()V
+
+    .line 18
+    iget-object v0, p0, Ldhh;->d:Landroid/os/Handler;
+
+    iget-object v1, p0, Ldhh;->e:Ljava/lang/Runnable;
+
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 19
     const/4 v0, 0x0

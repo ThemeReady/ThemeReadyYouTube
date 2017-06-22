@@ -14,7 +14,7 @@
 
 # direct methods
 .method constructor <init>(Landroid/content/Context;Landroid/net/wifi/WifiManager;)V
-    .locals 1
+    .locals 2
 
     .prologue
     .line 1
@@ -23,8 +23,10 @@
     .line 2
     const-string v0, "DISCOVERED_SC_STORE"
 
+    const/4 v1, 0x0
+
     .line 3
-    invoke-static {p1, v0}, Loso;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-virtual {p1, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v0
 

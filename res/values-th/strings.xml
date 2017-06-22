@@ -652,12 +652,12 @@
     <string name="offline_fallback_notification">มองหาการดาวน์โหลดที่ไม่เสร็จสมบูรณ์</string>
     <string name="offline_file_not_found_dialog_message">ไม่พบไฟล์วิดีโอ คุณอาจสลับอุปกรณ์ที่ใช้เก็บวิดีโอนั้นหรือได้ติดตั้งแอปทำความสะอาดข้อมูลไว้</string>
     <string name="offline_fragment_title">ออฟไลน์</string>
-    <string name="offline_navigate_to_library_snackbar_action">ไปที่ไลบรารี</string>
-    <string name="offline_navigate_to_library_snackbar_text">ดูวิดีโอที่บันทึกไว้ในไลบรารีโดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="offline_navigate_to_library_snackbar_action">ไปที่คลังวิดีโอ</string>
+    <string name="offline_navigate_to_library_snackbar_text">ดูวิดีโอที่บันทึกไว้ในคลังวิดีโอโดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต</string>
     <string name="offline_no_content_body_text_not_offline_eligible">คุณออฟไลน์อยู่ โปรดตรวจสอบการเชื่อมต่อ</string>
-    <string name="offline_no_content_body_text_offline_eligible_and_has_content">ดูวิดีโอที่บันทึกไว้ในไลบรารีโดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="offline_no_content_body_text_offline_eligible_and_has_content">ดูวิดีโอที่บันทึกไว้ในคลังวิดีโอโดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต</string>
     <string name="offline_no_content_body_text_offline_eligible_and_no_content">ในครั้งต่อไปที่คุณออนไลน์ โปรดลองบันทึกวิดีโอบางรายการที่คุณสามารถดูได้โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต</string>
-    <string name="offline_no_content_button_text">ไปที่ไลบรารี</string>
+    <string name="offline_no_content_button_text">ไปที่คลังวิดีโอ</string>
     <string name="offline_no_content_title_not_offline_eligible">เชื่อมต่ออินเทอร์เน็ต</string>
     <string name="offline_no_content_title_offline_eligible_and_has_content">คุณออฟไลน์อยู่</string>
     <string name="offline_no_content_title_offline_eligible_and_no_content">คุณออฟไลน์อยู่</string>

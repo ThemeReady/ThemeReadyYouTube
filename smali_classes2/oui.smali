@@ -180,7 +180,7 @@
     .line 22
     sget v1, Lofw;->y:I
 
-    const v3, 0x7f0c0323 # @color/quantum_white_text
+    const v3, 0x106000b
 
     .line 23
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getColor(I)I

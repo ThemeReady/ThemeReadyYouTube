@@ -118,7 +118,7 @@
     .locals 1
 
     .prologue
-    .line 415
+    .line 414
     const/4 v0, 0x3
 
     new-array v0, v0, [I
@@ -127,7 +127,7 @@
 
     sput-object v0, Lpqk;->a:[I
 
-    .line 416
+    .line 415
     new-instance v0, Lpql;
 
     invoke-direct {v0}, Lpql;-><init>()V
@@ -136,7 +136,7 @@
 
     return-void
 
-    .line 415
+    .line 414
     :array_0
     .array-data 4
         0x0
@@ -302,7 +302,7 @@
     .locals 1
 
     .prologue
-    .line 414
+    .line 413
     invoke-static {p0, p1, p2, p3, p4}, Lpqk;->b(FFFII)Landroid/graphics/Rect;
 
     move-result-object v0
@@ -322,7 +322,7 @@
 
     const/16 v6, -0x3e8
 
-    .line 404
+    .line 403
     const/high16 v0, 0x43480000    # 200.0f
 
     mul-float/2addr v0, p2
@@ -331,7 +331,7 @@
 
     move-result v0
 
-    .line 405
+    .line 404
     int-to-float v1, p3
 
     div-float v1, p0, v1
@@ -344,7 +344,7 @@
 
     double-to-int v1, v2
 
-    .line 406
+    .line 405
     int-to-float v2, p4
 
     div-float v2, p1, v2
@@ -357,15 +357,15 @@
 
     double-to-int v2, v2
 
-    .line 407
+    .line 406
     div-int/lit8 v0, v0, 0x2
 
-    .line 408
+    .line 407
     new-instance v3, Landroid/graphics/Rect;
 
     sub-int v4, v1, v0
 
-    .line 409
+    .line 408
     invoke-static {v6, v4}, Ljava/lang/Math;->max(II)I
 
     move-result v4
@@ -382,7 +382,7 @@
 
     sub-int v5, v2, v0
 
-    .line 410
+    .line 409
     invoke-static {v6, v5}, Ljava/lang/Math;->max(II)I
 
     move-result v5
@@ -399,7 +399,7 @@
 
     add-int/2addr v1, v0
 
-    .line 411
+    .line 410
     invoke-static {v6, v1}, Ljava/lang/Math;->max(II)I
 
     move-result v1
@@ -416,7 +416,7 @@
 
     add-int/2addr v0, v2
 
-    .line 412
+    .line 411
     invoke-static {v6, v0}, Ljava/lang/Math;->max(II)I
 
     move-result v0
@@ -433,7 +433,7 @@
 
     invoke-direct {v3, v4, v5, v1, v0}, Landroid/graphics/Rect;-><init>(IIII)V
 
-    .line 413
+    .line 412
     return-object v3
 .end method
 
@@ -443,15 +443,15 @@
     .prologue
     const/4 v0, 0x0
 
-    .line 386
+    .line 385
     if-nez p0, :cond_1
 
-    .line 396
+    .line 395
     :cond_0
     :goto_0
     return v0
 
-    .line 388
+    .line 387
     :cond_1
     :try_start_0
     invoke-virtual {p0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
@@ -460,12 +460,12 @@
 
     move-result-object v1
 
-    .line 393
+    .line 392
     invoke-virtual {v1}, Landroid/hardware/Camera$Parameters;->getSupportedFlashModes()Ljava/util/List;
 
     move-result-object v2
 
-    .line 394
+    .line 393
     invoke-virtual {v1}, Landroid/hardware/Camera$Parameters;->getFlashMode()Ljava/lang/String;
 
     move-result-object v1
@@ -474,7 +474,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 395
+    .line 394
     invoke-interface {v2, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result v1
@@ -485,11 +485,11 @@
 
     goto :goto_0
 
-    .line 390
+    .line 389
     :catch_0
     move-exception v1
 
-    .line 391
+    .line 390
     const-string v2, "Error while getting camera parameters."
 
     invoke-static {v2, v1}, Loyr;->b(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -1165,34 +1165,33 @@
 
     const-string v1, "youtube"
 
-    .line 195
-    invoke-static {v0, v1}, Loso;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-virtual {v0, v1, v2}, Lfq;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v0
 
-    .line 196
+    .line 195
     if-eqz v0, :cond_1
 
-    .line 197
+    .line 196
     new-instance v1, Lpri;
 
     invoke-direct {v1, v0}, Lpri;-><init>(Landroid/content/SharedPreferences;)V
 
-    .line 198
+    .line 197
     :cond_1
     const v0, 0x7f040060
 
-    .line 199
+    .line 198
     invoke-virtual {p1, v0, p2, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    .line 200
+    .line 199
     if-eqz p3, :cond_2
 
-    .line 201
+    .line 200
     const-string v1, "CAMERA_FACING"
 
     iget v4, p0, Lpqk;->aa:I
@@ -1203,7 +1202,7 @@
 
     iput v1, p0, Lpqk;->aC:I
 
-    .line 202
+    .line 201
     const-string v1, "FLASH_ENABLED"
 
     invoke-virtual {p3, v1, v2}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;Z)Z
@@ -1212,13 +1211,13 @@
 
     iput-boolean v1, p0, Lpqk;->b:Z
 
-    .line 204
+    .line 203
     :cond_2
     invoke-static {}, Lprf;->a()[I
 
     move-result-object v4
 
-    .line 205
+    .line 204
     aget v1, v4, v2
 
     if-gez v1, :cond_3
@@ -1233,17 +1232,17 @@
     :goto_1
     invoke-static {v1}, Lacyx;->b(Z)V
 
-    .line 206
+    .line 205
     aget v1, v4, v2
 
     iput v1, p0, Lpqk;->aa:I
 
-    .line 207
+    .line 206
     aget v1, v4, v3
 
     iput v1, p0, Lpqk;->ab:I
 
-    .line 208
+    .line 207
     iget v1, p0, Lpqk;->aa:I
 
     if-ltz v1, :cond_9
@@ -1258,28 +1257,28 @@
 
     if-nez v1, :cond_9
 
-    .line 209
+    .line 208
     :cond_4
     iget v1, p0, Lpqk;->aa:I
 
     iput v1, p0, Lpqk;->Z:I
 
-    .line 212
+    .line 211
     :goto_2
     new-instance v1, Lprf;
 
     invoke-direct {v1}, Lprf;-><init>()V
 
-    .line 213
+    .line 212
     iput-object v1, p0, Lpqk;->X:Lprf;
 
-    .line 214
+    .line 213
     iget-object v1, p0, Lpqk;->X:Lprf;
 
-    .line 215
+    .line 214
     iput-object p0, v1, Lprf;->i:Lprh;
 
-    .line 216
+    .line 215
     const v1, 0x7f0f01bf
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1290,7 +1289,7 @@
 
     iput-object v1, p0, Lpqk;->ae:Landroid/widget/FrameLayout;
 
-    .line 217
+    .line 216
     const v1, 0x7f0f01c0
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1301,22 +1300,22 @@
 
     iput-object v1, p0, Lpqk;->af:Landroid/opengl/GLSurfaceView;
 
-    .line 218
+    .line 217
     iget-object v1, p0, Lpqk;->af:Landroid/opengl/GLSurfaceView;
 
     invoke-virtual {v1, v6}, Landroid/opengl/GLSurfaceView;->setEGLContextClientVersion(I)V
 
-    .line 219
+    .line 218
     iget-object v1, p0, Lpqk;->af:Landroid/opengl/GLSurfaceView;
 
     invoke-virtual {v1, p0}, Landroid/opengl/GLSurfaceView;->setRenderer(Landroid/opengl/GLSurfaceView$Renderer;)V
 
-    .line 220
+    .line 219
     iget-object v1, p0, Lpqk;->af:Landroid/opengl/GLSurfaceView;
 
     invoke-virtual {v1, v2}, Landroid/opengl/GLSurfaceView;->setRenderMode(I)V
 
-    .line 221
+    .line 220
     iget-object v1, p0, Lpqk;->af:Landroid/opengl/GLSurfaceView;
 
     new-instance v4, Lprc;
@@ -1325,7 +1324,7 @@
 
     invoke-virtual {v1, v4}, Landroid/opengl/GLSurfaceView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 222
+    .line 221
     const v1, 0x7f0f01c4
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1336,12 +1335,12 @@
 
     iput-object v1, p0, Lpqk;->aF:Lcom/google/android/libraries/youtube/edit/camera/RecordButtonView;
 
-    .line 223
+    .line 222
     iget-boolean v1, p0, Lpqk;->au:Z
 
     if-eqz v1, :cond_a
 
-    .line 224
+    .line 223
     iget-object v1, p0, Lpqk;->aF:Lcom/google/android/libraries/youtube/edit/camera/RecordButtonView;
 
     new-instance v4, Lpra;
@@ -1350,7 +1349,7 @@
 
     invoke-virtual {v1, v4}, Lcom/google/android/libraries/youtube/edit/camera/RecordButtonView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 226
+    .line 225
     :goto_3
     const v1, 0x7f0f01c8
 
@@ -1362,7 +1361,7 @@
 
     iput-object v1, p0, Lpqk;->aj:Landroid/widget/ImageView;
 
-    .line 227
+    .line 226
     iget-object v1, p0, Lpqk;->aj:Landroid/widget/ImageView;
 
     new-instance v4, Lpqy;
@@ -1371,7 +1370,7 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 228
+    .line 227
     const v1, 0x7f0f01c1
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1380,7 +1379,7 @@
 
     iput-object v1, p0, Lpqk;->aH:Landroid/view/View;
 
-    .line 229
+    .line 228
     const v1, 0x7f0f01c3
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1391,12 +1390,12 @@
 
     iput-object v1, p0, Lpqk;->ak:Landroid/widget/ImageView;
 
-    .line 230
+    .line 229
     iget-object v1, p0, Lpqk;->ak:Landroid/widget/ImageView;
 
     invoke-virtual {v1, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 231
+    .line 230
     iget v1, p0, Lpqk;->aa:I
 
     if-ltz v1, :cond_5
@@ -1405,7 +1404,7 @@
 
     if-gez v1, :cond_b
 
-    .line 232
+    .line 231
     :cond_5
     iget-object v1, p0, Lpqk;->ak:Landroid/widget/ImageView;
 
@@ -1413,7 +1412,7 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 234
+    .line 233
     :goto_4
     const v1, 0x7f0f01c2
 
@@ -1425,24 +1424,24 @@
 
     iput-object v1, p0, Lpqk;->aG:Landroid/widget/ProgressBar;
 
-    .line 235
+    .line 234
     iget-object v1, p0, Lpqk;->aG:Landroid/widget/ProgressBar;
 
     const/high16 v4, 0x40400000    # 3.0f
 
     invoke-virtual {v1, v4}, Landroid/widget/ProgressBar;->setScaleY(F)V
 
-    .line 236
+    .line 235
     iget v1, p0, Lpqk;->ay:I
 
     if-gtz v1, :cond_6
 
-    .line 237
+    .line 236
     iget-object v1, p0, Lpqk;->aG:Landroid/widget/ProgressBar;
 
     invoke-virtual {v1, v7}, Landroid/widget/ProgressBar;->setVisibility(I)V
 
-    .line 238
+    .line 237
     :cond_6
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -1450,7 +1449,7 @@
 
     if-lt v1, v4, :cond_c
 
-    .line 239
+    .line 238
     iget-object v1, p0, Lpqk;->aG:Landroid/widget/ProgressBar;
 
     invoke-static {v5}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
@@ -1459,7 +1458,7 @@
 
     invoke-virtual {v1, v4}, Landroid/widget/ProgressBar;->setProgressTintList(Landroid/content/res/ColorStateList;)V
 
-    .line 243
+    .line 242
     :goto_5
     iget-object v1, p0, Lpqk;->aG:Landroid/widget/ProgressBar;
 
@@ -1469,7 +1468,7 @@
 
     aput v2, v5, v2
 
-    .line 244
+    .line 243
     invoke-virtual {p0}, Lfj;->i()Landroid/content/res/Resources;
 
     move-result-object v2
@@ -1482,41 +1481,41 @@
 
     aput v2, v5, v3
 
-    .line 245
+    .line 244
     invoke-static {v1, v4, v5}, Landroid/animation/ObjectAnimator;->ofInt(Ljava/lang/Object;Ljava/lang/String;[I)Landroid/animation/ObjectAnimator;
 
     move-result-object v1
 
-    .line 247
+    .line 246
     new-instance v2, Landroid/view/animation/DecelerateInterpolator;
 
     invoke-direct {v2}, Landroid/view/animation/DecelerateInterpolator;-><init>()V
 
     invoke-virtual {v1, v2}, Landroid/animation/ObjectAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 248
+    .line 247
     iget v2, p0, Lpqk;->ay:I
 
     int-to-long v2, v2
 
     invoke-virtual {v1, v2, v3}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
-    .line 249
+    .line 248
     new-instance v2, Lpqu;
 
     invoke-direct {v2, p0}, Lpqu;-><init>(Lpqk;)V
 
     invoke-virtual {v1, v2}, Landroid/animation/ObjectAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 251
+    .line 250
     iput-object v1, p0, Lpqk;->aw:Landroid/animation/ObjectAnimator;
 
-    .line 252
+    .line 251
     invoke-virtual {p0}, Lfj;->i()Landroid/content/res/Resources;
 
     move-result-object v1
 
-    .line 253
+    .line 252
     const v2, 0x7f0c0057
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -1525,7 +1524,7 @@
 
     iput v2, p0, Lpqk;->aL:I
 
-    .line 254
+    .line 253
     const v2, 0x7f0c0059
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -1534,7 +1533,7 @@
 
     iput v2, p0, Lpqk;->aM:I
 
-    .line 255
+    .line 254
     const v2, 0x7f0c005a
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -1543,7 +1542,7 @@
 
     iput v1, p0, Lpqk;->aN:I
 
-    .line 256
+    .line 255
     const v1, 0x7f0f01ca
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1554,7 +1553,7 @@
 
     iput-object v1, p0, Lpqk;->aq:Landroid/widget/TextView;
 
-    .line 257
+    .line 256
     iget-object v1, p0, Lpqk;->aq:Landroid/widget/TextView;
 
     const-wide/16 v2, 0x0
@@ -1565,12 +1564,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 258
+    .line 257
     iget-boolean v1, p0, Lpqk;->av:Z
 
     if-eqz v1, :cond_d
 
-    .line 259
+    .line 258
     new-instance v1, Lprb;
 
     new-instance v2, Ljava/lang/ref/WeakReference;
@@ -1581,7 +1580,7 @@
 
     iput-object v1, p0, Lpqk;->ar:Landroid/os/Handler;
 
-    .line 261
+    .line 260
     :goto_6
     const v1, 0x7f0f01c6
 
@@ -1591,7 +1590,7 @@
 
     iput-object v1, p0, Lpqk;->ao:Landroid/view/View;
 
-    .line 262
+    .line 261
     const v1, 0x7f0f01c5
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1602,7 +1601,7 @@
 
     iput-object v1, p0, Lpqk;->ap:Lcom/google/android/libraries/youtube/edit/camera/RotateLayout;
 
-    .line 263
+    .line 262
     const v1, 0x7f0f01c7
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1613,12 +1612,12 @@
 
     iput-object v1, p0, Lpqk;->aO:Landroid/widget/ImageView;
 
-    .line 264
+    .line 263
     iget-object v1, p0, Lpqk;->aO:Landroid/widget/ImageView;
 
     invoke-virtual {v1, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 265
+    .line 264
     const v1, 0x7f0f01c9
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1629,7 +1628,7 @@
 
     iput-object v1, p0, Lpqk;->aK:Landroid/widget/ImageView;
 
-    .line 266
+    .line 265
     iget-object v1, p0, Lpqk;->aK:Landroid/widget/ImageView;
 
     invoke-virtual {v1}, Landroid/widget/ImageView;->getBackground()Landroid/graphics/drawable/Drawable;
@@ -1638,10 +1637,10 @@
 
     check-cast v1, Landroid/graphics/drawable/AnimationDrawable;
 
-    .line 267
+    .line 266
     invoke-virtual {v1}, Landroid/graphics/drawable/AnimationDrawable;->start()V
 
-    .line 268
+    .line 267
     return-object v0
 
     .line 191
@@ -1653,10 +1652,10 @@
     :cond_8
     move v1, v2
 
-    .line 205
+    .line 204
     goto/16 :goto_1
 
-    .line 210
+    .line 209
     :cond_9
     iget v1, p0, Lpqk;->ab:I
 
@@ -1664,7 +1663,7 @@
 
     goto/16 :goto_2
 
-    .line 225
+    .line 224
     :cond_a
     iget-object v1, p0, Lpqk;->aF:Lcom/google/android/libraries/youtube/edit/camera/RecordButtonView;
 
@@ -1672,7 +1671,7 @@
 
     goto/16 :goto_3
 
-    .line 233
+    .line 232
     :cond_b
     iget-object v1, p0, Lpqk;->ak:Landroid/widget/ImageView;
 
@@ -1680,7 +1679,7 @@
 
     goto/16 :goto_4
 
-    .line 240
+    .line 239
     :cond_c
     iget-object v1, p0, Lpqk;->aG:Landroid/widget/ProgressBar;
 
@@ -1690,12 +1689,12 @@
 
     sget-object v4, Landroid/graphics/PorterDuff$Mode;->SRC_IN:Landroid/graphics/PorterDuff$Mode;
 
-    .line 241
+    .line 240
     invoke-virtual {v1, v5, v4}, Landroid/graphics/drawable/Drawable;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
 
     goto/16 :goto_5
 
-    .line 260
+    .line 259
     :cond_d
     iget-object v1, p0, Lpqk;->aq:Landroid/widget/TextView;
 
@@ -1959,7 +1958,7 @@
     .locals 2
 
     .prologue
-    .line 397
+    .line 396
     iget-object v0, p0, Lpqk;->aj:Landroid/widget/ImageView;
 
     invoke-virtual {p0}, Lfj;->i()Landroid/content/res/Resources;
@@ -1972,32 +1971,32 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 398
+    .line 397
     iget-object v0, p0, Lpqk;->aj:Landroid/widget/ImageView;
 
     invoke-virtual {v0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    .line 399
+    .line 398
     instance-of v1, v0, Landroid/graphics/drawable/Animatable2;
 
     if-eqz v1, :cond_0
 
-    .line 400
+    .line 399
     check-cast v0, Landroid/graphics/drawable/Animatable2;
 
-    .line 401
+    .line 400
     new-instance v1, Lpqm;
 
     invoke-direct {v1, p0, p2}, Lpqm;-><init>(Lpqk;I)V
 
     invoke-interface {v0, v1}, Landroid/graphics/drawable/Animatable2;->registerAnimationCallback(Landroid/graphics/drawable/Animatable2$AnimationCallback;)V
 
-    .line 402
+    .line 401
     invoke-interface {v0}, Landroid/graphics/drawable/Animatable2;->start()V
 
-    .line 403
+    .line 402
     :cond_0
     return-void
 .end method
@@ -2062,10 +2061,10 @@
 
     const/4 v1, 0x0
 
-    .line 367
+    .line 366
     if-eqz p1, :cond_0
 
-    .line 368
+    .line 367
     invoke-static {p1, p2}, Lpqk;->b(Landroid/hardware/Camera;Ljava/lang/String;)Z
 
     move-result v2
@@ -2081,12 +2080,12 @@
     :cond_0
     move v0, v1
 
-    .line 385
+    .line 384
     :cond_1
     :goto_0
     return v0
 
-    .line 370
+    .line 369
     :cond_2
     iget-object v2, p0, Lpqk;->aH:Landroid/view/View;
 
@@ -2094,7 +2093,7 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setVisibility(I)V
 
-    .line 371
+    .line 370
     invoke-static {p1, p2}, Lpqk;->b(Landroid/hardware/Camera;Ljava/lang/String;)Z
 
     move-result v2
@@ -2107,7 +2106,7 @@
 
     if-ne v2, v3, :cond_4
 
-    .line 372
+    .line 371
     const-string v2, "torch"
 
     invoke-virtual {v2, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -2116,14 +2115,14 @@
 
     if-eqz v2, :cond_3
 
-    .line 373
+    .line 372
     iget-object v2, p0, Lpqk;->aH:Landroid/view/View;
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_0
 
-    .line 375
+    .line 374
     :cond_3
     const-string v2, "off"
 
@@ -2135,38 +2134,38 @@
 
     move v0, v1
 
-    .line 377
+    .line 376
     goto :goto_0
 
-    .line 378
+    .line 377
     :cond_4
     :try_start_0
     invoke-virtual {p1}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
     move-result-object v2
 
-    .line 379
+    .line 378
     invoke-virtual {v2, p2}, Landroid/hardware/Camera$Parameters;->setFlashMode(Ljava/lang/String;)V
 
-    .line 380
+    .line 379
     invoke-virtual {p1, v2}, Landroid/hardware/Camera;->setParameters(Landroid/hardware/Camera$Parameters;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
-    .line 382
+    .line 381
     :catch_0
     move-exception v0
 
-    .line 383
+    .line 382
     const-string v2, "Error while setting camera flash light mode"
 
     invoke-static {v2, v0}, Loyr;->b(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     move v0, v1
 
-    .line 384
+    .line 383
     goto :goto_0
 .end method
 
@@ -2277,27 +2276,27 @@
     .locals 1
 
     .prologue
-    .line 298
+    .line 297
     iget-object v0, p0, Lpqk;->aF:Lcom/google/android/libraries/youtube/edit/camera/RecordButtonView;
 
     if-ne p1, v0, :cond_3
 
-    .line 300
+    .line 299
     iget-object v0, p0, Lpqk;->Y:Lprp;
 
     if-nez v0, :cond_1
 
-    .line 301
+    .line 300
     const-string v0, "Attempted to toggle recording before recorder ready or after it was released."
 
     invoke-static {v0}, Loyr;->d(Ljava/lang/String;)V
 
-    .line 314
+    .line 313
     :cond_0
     :goto_0
     return-void
 
-    .line 303
+    .line 302
     :cond_1
     iget-object v0, p0, Lpqk;->Y:Lprp;
 
@@ -2307,43 +2306,43 @@
 
     if-nez v0, :cond_2
 
-    .line 304
+    .line 303
     invoke-virtual {p0}, Lpqk;->L()V
 
     goto :goto_0
 
-    .line 305
+    .line 304
     :cond_2
     invoke-virtual {p0}, Lpqk;->a()V
 
     goto :goto_0
 
-    .line 307
+    .line 306
     :cond_3
     iget-object v0, p0, Lpqk;->ak:Landroid/widget/ImageView;
 
     if-ne p1, v0, :cond_4
 
-    .line 308
+    .line 307
     invoke-virtual {p0}, Lpqk;->M()V
 
     goto :goto_0
 
-    .line 309
+    .line 308
     :cond_4
     iget-object v0, p0, Lpqk;->aO:Landroid/widget/ImageView;
 
     if-ne p1, v0, :cond_0
 
-    .line 311
+    .line 310
     invoke-virtual {p0}, Lfj;->h()Lfq;
 
     move-result-object v0
 
-    .line 312
+    .line 311
     if-eqz v0, :cond_0
 
-    .line 313
+    .line 312
     invoke-virtual {v0}, Lfq;->onBackPressed()V
 
     goto :goto_0
@@ -2355,7 +2354,7 @@
     .prologue
     const/16 v3, 0x10
 
-    .line 317
+    .line 316
     iget-object v0, p0, Lpqk;->Y:Lprp;
 
     if-eqz v0, :cond_0
@@ -2368,18 +2367,18 @@
 
     if-eqz v0, :cond_0
 
-    .line 318
+    .line 317
     iget-object v0, p0, Lpqk;->Y:Lprp;
 
     invoke-interface {v0}, Lprp;->c()V
 
-    .line 319
+    .line 318
     :cond_0
     iget-object v0, p0, Lpqk;->ah:Landroid/graphics/SurfaceTexture;
 
     invoke-virtual {v0}, Landroid/graphics/SurfaceTexture;->updateTexImage()V
 
-    .line 320
+    .line 319
     iget-object v0, p0, Lpqk;->Y:Lprp;
 
     if-eqz v0, :cond_1
@@ -2392,7 +2391,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 321
+    .line 320
     iget-object v0, p0, Lpqk;->Y:Lprp;
 
     iget-object v1, p0, Lpqk;->ah:Landroid/graphics/SurfaceTexture;
@@ -2401,38 +2400,38 @@
 
     invoke-interface {v0, v1, v2}, Lprp;->a(Landroid/graphics/SurfaceTexture;I)V
 
-    .line 322
+    .line 321
     iget v0, p0, Lpqk;->aD:I
 
     add-int/lit8 v0, v0, 0x1
 
     iput v0, p0, Lpqk;->aD:I
 
-    .line 323
+    .line 322
     :cond_1
     new-array v0, v3, [F
 
-    .line 324
+    .line 323
     iget-object v1, p0, Lpqk;->ah:Landroid/graphics/SurfaceTexture;
 
     invoke-virtual {v1, v0}, Landroid/graphics/SurfaceTexture;->getTransformMatrix([F)V
 
-    .line 325
+    .line 324
     new-array v1, v3, [F
 
-    .line 326
+    .line 325
     const/4 v2, 0x0
 
     invoke-static {v1, v2}, Landroid/opengl/Matrix;->setIdentityM([FI)V
 
-    .line 327
+    .line 326
     iget-object v2, p0, Lpqk;->ag:Lpsa;
 
     iget v3, p0, Lpqk;->ai:I
 
     invoke-virtual {v2, v3, v1, v0}, Lpsa;->a(I[F[F)V
 
-    .line 328
+    .line 327
     return-void
 .end method
 
@@ -2440,12 +2439,12 @@
     .locals 1
 
     .prologue
-    .line 363
+    .line 362
     iget-object v0, p0, Lpqk;->af:Landroid/opengl/GLSurfaceView;
 
     invoke-virtual {v0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
-    .line 364
+    .line 363
     iget-object v0, p0, Lpqk;->Y:Lprp;
 
     if-eqz v0, :cond_0
@@ -2458,14 +2457,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 365
+    .line 364
     iget v0, p0, Lpqk;->aE:I
 
     add-int/lit8 v0, v0, 0x1
 
     iput v0, p0, Lpqk;->aE:I
 
-    .line 366
+    .line 365
     :cond_0
     return-void
 .end method
@@ -2476,10 +2475,10 @@
     .prologue
     const/4 v0, 0x0
 
-    .line 315
+    .line 314
     invoke-static {v0, v0, p2, p3}, Landroid/opengl/GLES20;->glViewport(IIII)V
 
-    .line 316
+    .line 315
     return-void
 .end method
 
@@ -2495,62 +2494,62 @@
 
     const v5, 0x8d65
 
-    .line 329
+    .line 328
     new-array v2, v0, [I
 
-    .line 330
+    .line 329
     invoke-static {v0, v2, v1}, Landroid/opengl/GLES20;->glGenTextures(I[II)V
 
-    .line 331
+    .line 330
     const-string v3, "Couldn\'t generate textures."
 
     invoke-static {v3}, Lprr;->a(Ljava/lang/String;)V
 
-    .line 332
+    .line 331
     aget v3, v2, v1
 
     invoke-static {v5, v3}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 333
+    .line 332
     const-string v3, "Couldn\'t bind texture."
 
     invoke-static {v3}, Lprr;->a(Ljava/lang/String;)V
 
-    .line 334
+    .line 333
     const/16 v3, 0x2801
 
     const/high16 v4, 0x46180000    # 9728.0f
 
     invoke-static {v5, v3, v4}, Landroid/opengl/GLES20;->glTexParameterf(IIF)V
 
-    .line 335
+    .line 334
     const/16 v3, 0x2800
 
     const v4, 0x46180400    # 9729.0f
 
     invoke-static {v5, v3, v4}, Landroid/opengl/GLES20;->glTexParameterf(IIF)V
 
-    .line 336
+    .line 335
     const/16 v3, 0x2802
 
     invoke-static {v5, v3, v6}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
-    .line 337
+    .line 336
     const/16 v3, 0x2803
 
     invoke-static {v5, v3, v6}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
-    .line 338
+    .line 337
     const-string v3, "Couldn\'t set texture parameters."
 
     invoke-static {v3}, Lprr;->a(Ljava/lang/String;)V
 
-    .line 339
+    .line 338
     aget v2, v2, v1
 
     iput v2, p0, Lpqk;->ai:I
 
-    .line 340
+    .line 339
     new-instance v2, Landroid/graphics/SurfaceTexture;
 
     iget v3, p0, Lpqk;->ai:I
@@ -2559,44 +2558,44 @@
 
     iput-object v2, p0, Lpqk;->ah:Landroid/graphics/SurfaceTexture;
 
-    .line 341
+    .line 340
     iget-object v2, p0, Lpqk;->ah:Landroid/graphics/SurfaceTexture;
 
     invoke-virtual {v2, p0}, Landroid/graphics/SurfaceTexture;->setOnFrameAvailableListener(Landroid/graphics/SurfaceTexture$OnFrameAvailableListener;)V
 
-    .line 342
+    .line 341
     iget-object v2, p0, Lpqk;->X:Lprf;
 
     iget-object v3, p0, Lpqk;->ah:Landroid/graphics/SurfaceTexture;
 
     invoke-virtual {v2, v3}, Lprf;->a(Landroid/graphics/SurfaceTexture;)V
 
-    .line 343
+    .line 342
     new-instance v2, Lpsa;
 
     invoke-direct {v2}, Lpsa;-><init>()V
 
     iput-object v2, p0, Lpqk;->ag:Lpsa;
 
-    .line 345
+    .line 344
     sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v3, 0x12
 
     if-ge v2, v3, :cond_0
 
-    .line 350
+    .line 349
     :goto_0
     const/4 v1, 0x2
 
     if-ne v0, v1, :cond_3
 
-    .line 352
+    .line 351
     iget-object v0, p0, Lpqk;->aA:Lxis;
 
     if-eqz v0, :cond_2
 
-    .line 353
+    .line 352
     sget-object v0, Lpqk;->az:Landroid/util/SparseIntArray;
 
     iget-object v1, p0, Lpqk;->aA:Lxis;
@@ -2611,19 +2610,19 @@
 
     move-result-object v0
 
-    .line 354
+    .line 353
     if-eqz v0, :cond_2
 
-    .line 355
+    .line 354
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     move-result v0
 
-    .line 358
+    .line 357
     :goto_1
     new-instance v1, Lprs;
 
-    .line 359
+    .line 358
     invoke-static {}, Landroid/opengl/EGL14;->eglGetCurrentContext()Landroid/opengl/EGLContext;
 
     move-result-object v2
@@ -2632,20 +2631,20 @@
 
     invoke-direct {v1, v2, v3, v0}, Lprs;-><init>(Landroid/opengl/EGLContext;Lmcp;I)V
 
-    .line 360
+    .line 359
     iput-object v1, p0, Lpqk;->Y:Lprp;
 
-    .line 362
+    .line 361
     :goto_2
     return-void
 
-    .line 347
+    .line 346
     :cond_0
     iget-object v0, p0, Lpqk;->aA:Lxis;
 
     if-eqz v0, :cond_1
 
-    .line 348
+    .line 347
     iget-object v0, p0, Lpqk;->aA:Lxis;
 
     iget v0, v0, Lxis;->a:I
@@ -2655,16 +2654,16 @@
     :cond_1
     move v0, v1
 
-    .line 349
+    .line 348
     goto :goto_0
 
-    .line 356
+    .line 355
     :cond_2
     const/4 v0, 0x5
 
     goto :goto_1
 
-    .line 361
+    .line 360
     :cond_3
     new-instance v0, Lprq;
 
@@ -2679,15 +2678,15 @@
     .locals 2
 
     .prologue
-    .line 283
+    .line 282
     invoke-super {p0}, Lfj;->s()V
 
-    .line 284
+    .line 283
     iget-object v1, p0, Lpqk;->ad:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 285
+    .line 284
     :goto_0
     :try_start_0
     iget-boolean v0, p0, Lpqk;->ac:Z
@@ -2696,7 +2695,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 286
+    .line 285
     :try_start_1
     iget-object v0, p0, Lpqk;->ad:Ljava/lang/Object;
 
@@ -2707,33 +2706,33 @@
 
     goto :goto_0
 
-    .line 289
+    .line 288
     :catch_0
     move-exception v0
 
     goto :goto_0
 
-    .line 290
+    .line 289
     :cond_0
     :try_start_2
     monitor-exit v1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 291
+    .line 290
     invoke-direct {p0}, Lpqk;->N()V
 
-    .line 292
+    .line 291
     iget-object v0, p0, Lpqk;->af:Landroid/opengl/GLSurfaceView;
 
     invoke-virtual {v0}, Landroid/opengl/GLSurfaceView;->onResume()V
 
-    .line 293
+    .line 292
     iget-object v0, p0, Lpqk;->aJ:Landroid/view/OrientationEventListener;
 
     if-nez v0, :cond_1
 
-    .line 294
+    .line 293
     new-instance v0, Lpqt;
 
     invoke-virtual {p0}, Lfj;->h()Lfq;
@@ -2744,22 +2743,22 @@
 
     iput-object v0, p0, Lpqk;->aJ:Landroid/view/OrientationEventListener;
 
-    .line 295
+    .line 294
     :cond_1
     iget-boolean v0, p0, Lpqk;->at:Z
 
     if-nez v0, :cond_2
 
-    .line 296
+    .line 295
     iget-object v0, p0, Lpqk;->aJ:Landroid/view/OrientationEventListener;
 
     invoke-virtual {v0}, Landroid/view/OrientationEventListener;->enable()V
 
-    .line 297
+    .line 296
     :cond_2
     return-void
 
-    .line 290
+    .line 289
     :catchall_0
     move-exception v0
 
@@ -2775,15 +2774,15 @@
     .locals 2
 
     .prologue
-    .line 269
+    .line 268
     invoke-super {p0}, Lfj;->t()V
 
-    .line 270
+    .line 269
     iget-object v0, p0, Lpqk;->Y:Lprp;
 
     if-eqz v0, :cond_1
 
-    .line 271
+    .line 270
     iget-object v0, p0, Lpqk;->Y:Lprp;
 
     invoke-interface {v0}, Lprp;->a()Z
@@ -2792,38 +2791,38 @@
 
     if-eqz v0, :cond_0
 
-    .line 272
+    .line 271
     invoke-direct {p0}, Lpqk;->O()Lpry;
 
-    .line 273
+    .line 272
     :cond_0
     const/4 v0, 0x0
 
     iput-object v0, p0, Lpqk;->Y:Lprp;
 
-    .line 274
+    .line 273
     :cond_1
     iget-object v1, p0, Lpqk;->ad:Ljava/lang/Object;
 
     monitor-enter v1
 
-    .line 275
+    .line 274
     const/4 v0, 0x1
 
     :try_start_0
     iput-boolean v0, p0, Lpqk;->ac:Z
 
-    .line 276
+    .line 275
     monitor-exit v1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 277
+    .line 276
     iget-object v0, p0, Lpqk;->X:Lprf;
 
     invoke-virtual {v0}, Lprf;->b()Landroid/hardware/Camera;
 
-    .line 278
+    .line 277
     iget-object v0, p0, Lpqk;->af:Landroid/opengl/GLSurfaceView;
 
     new-instance v1, Lpqs;
@@ -2832,26 +2831,26 @@
 
     invoke-virtual {v0, v1}, Landroid/opengl/GLSurfaceView;->queueEvent(Ljava/lang/Runnable;)V
 
-    .line 279
+    .line 278
     iget-object v0, p0, Lpqk;->af:Landroid/opengl/GLSurfaceView;
 
     invoke-virtual {v0}, Landroid/opengl/GLSurfaceView;->onPause()V
 
-    .line 280
+    .line 279
     iget-boolean v0, p0, Lpqk;->at:Z
 
     if-nez v0, :cond_2
 
-    .line 281
+    .line 280
     iget-object v0, p0, Lpqk;->aJ:Landroid/view/OrientationEventListener;
 
     invoke-virtual {v0}, Landroid/view/OrientationEventListener;->disable()V
 
-    .line 282
+    .line 281
     :cond_2
     return-void
 
-    .line 276
+    .line 275
     :catchall_0
     move-exception v0
 

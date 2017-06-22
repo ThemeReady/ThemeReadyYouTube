@@ -10,7 +10,7 @@
     <style name="Base.Widget.AppCompat.RatingBar.Small" parent="@android:style/Widget.Material.RatingBar.Small" />
     <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="@android:style/Widget.Material.Spinner.Underlined" />
     <style name="CardView" parent="@style/Base.CardView">
-        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardBackgroundColor">?android:colorBackgroundFloating</item>
     </style>
     <style name="Theme.YouTube.Light" parent="@style/Base.Theme.YouTube.Light">
         <item name="android:alertDialogTheme">@style/Theme.YouTube.Light.Dialog</item>

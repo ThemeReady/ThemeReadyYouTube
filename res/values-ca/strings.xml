@@ -52,8 +52,8 @@
     <string name="accessibility_flag">Marca el vídeo</string>
     <string name="accessibility_flashlight_turned_off">"S'ha desactivat el flaix"</string>
     <string name="accessibility_flashlight_turned_on">"S'ha activat el flaix"</string>
-    <string name="accessibility_go_to_channel">Vés al canal</string>
-    <string name="accessibility_go_to_video">Vés al vídeo</string>
+    <string name="accessibility_go_to_channel">Ves al canal</string>
+    <string name="accessibility_go_to_video">Ves al vídeo</string>
     <string name="accessibility_header_postfix">Títol</string>
     <string name="accessibility_heart_icon_empty">Botó de cor buit</string>
     <string name="accessibility_heart_icon_full">Botó de cor ple</string>
@@ -84,7 +84,7 @@
     <string name="accessibility_play_spotlight_story">Reprodueix el curt interactiu</string>
     <string name="accessibility_player">Amplia el minireproductor</string>
     <string name="accessibility_player_progress_time">%1$s de: %2$s</string>
-    <string name="accessibility_playlist_collaboration_settings">Vés a la configuració de col·laboració en llistes de reproducció</string>
+    <string name="accessibility_playlist_collaboration_settings">Ves a la configuració de col·laboració en llistes de reproducció</string>
     <string name="accessibility_playlist_edit">Edita la llista de reproducció</string>
     <string name="accessibility_playlist_play_all">Reprodueix-los tots</string>
     <string name="accessibility_playlist_private">Ll. repr. priv.</string>
@@ -162,7 +162,7 @@
     <string name="add_to_offline_done">El vídeo s’ha desat</string>
     <string name="add_to_offline_not_enough_space">No hi ha prou espai per desar el vídeo</string>
     <string name="add_to_offline_start">S’està desant el vídeo…</string>
-    <string name="add_to_offline_waiting_for_wifi">S’està esperant la Wi-Fi per desar. Vés a Configuració per restablir aquesta opció.</string>
+    <string name="add_to_offline_waiting_for_wifi">S’està esperant la Wi-Fi per desar. Ves a Configuració per restablir aquesta opció.</string>
     <string name="add_video_to_offline">Desa el vídeo sense connexió</string>
     <string name="add_video_to_offline_error">El vídeo no s’ha desat</string>
     <string name="add_video_to_offline_waiting_for_discount">El vídeo es desarà quan tinguis connexió Wi-Fi o dades amb descompte.</string>
@@ -176,7 +176,7 @@
     <string name="audio_selection_title">"Opcions d'àudio"</string>
     <string name="audio_tracks_title">Pista d’àudio</string>
     <string name="audio_unavailable">Àudio no disponible</string>
-    <string name="auto_offline_disabled_empty_message_text">"S'ha desactivat la funció Vídeos gratuïts diaris. Vés a la configuració per activar-la."</string>
+    <string name="auto_offline_disabled_empty_message_text">"S'ha desactivat la funció Vídeos gratuïts diaris. Ves a la configuració per activar-la."</string>
     <string name="auto_offline_enabled_empty_message_text">"El vídeos es desaran d'aquí a poc."</string>
     <string name="auto_offline_link_badge_text">Nou</string>
     <string name="auto_offline_no_space_empty_message_text">"La funció Vídeos gratuïts diaris necessita %1$s d'espai lliure com a mínim. Actualment tens %2$s d'espai lliure."</string>
@@ -401,7 +401,7 @@ Mira’ls al televisor."</string>
     <string name="image_attachment_label">Imatge adjunta</string>
     <string name="image_gallery_file_size_too_large_error">"La mida del fitxer d'imatge supera el nostre límit. Tria una imatge amb una mida inferior a %1$d MB."</string>
     <string name="image_gallery_permission_allow_access_description">"Per publicar una imatge nova, permet l'accés a les fotos"</string>
-    <string name="image_gallery_permission_open_settings_description">Per publicar una imatge nova, vés a <b>Configuració > Permisos</b>" i permet l'accés a l'emmagatzematge"</string>
+    <string name="image_gallery_permission_open_settings_description">Per publicar una imatge nova, ves a <b>Configuració > Permisos</b>" i permet l'accés a l'emmagatzematge"</string>
     <string name="image_gallery_zero_state_text_primary">Encara no hi ha cap foto</string>
     <string name="image_gallery_zero_state_text_secondary">Fes una foto per afegir-la a una publicació</string>
     <string name="image_viewer_close_button_label">"Tanca el visualitzador d'imatges"</string>
@@ -469,8 +469,8 @@ Mira’ls al televisor."</string>
     <string name="lc_on_accessibility">activa</string>
     <string name="lc_permission_allow_access_description">"Per emetre en directe, permet l'accés a la càmera i al micròfon"</string>
     <string name="lc_permission_allow_access_description_with_location">"Per emetre en directe, permet l'accés a la càmera, al micròfon i a la ubicació"</string>
-    <string name="lc_permission_open_settings_description">Per emetre en directe, vés a <b>Configuració > Permisos</b>" i permet l'accés a la càmera i al micròfon"</string>
-    <string name="lc_permission_open_settings_description_with_location">Per emetre en directe, vés a <b>Configuració > Permisos</b>" i permet l'accés a la càmera, al micròfon i a la ubicació"</string>
+    <string name="lc_permission_open_settings_description">Per emetre en directe, ves a <b>Configuració > Permisos</b>" i permet l'accés a la càmera i al micròfon"</string>
+    <string name="lc_permission_open_settings_description_with_location">Per emetre en directe, ves a <b>Configuració > Permisos</b>" i permet l'accés a la càmera, al micròfon i a la ubicació"</string>
     <string name="lc_post_stream_done_button_text">Fet</string>
     <string name="lc_reconnecting">"S'està tornant a connectar…"</string>
     <string name="lc_retry_no">Finalitza</string>
@@ -723,11 +723,11 @@ No s'ha trobat cap vídeo desat"</string>
     <string name="permission_location_description">"La ubicació permet millorar l'experiència amb recomanacions i notificacions més rellevants, i molt més."</string>
     <string name="permission_location_title">Vols permetre que YouTube accedeixi a la teva ubicació?</string>
     <string name="permission_open_settings_button">Obre la configuració</string>
-    <string name="permission_open_settings_camera">Per gravar un vídeo nou, vés a <b>Configuració > Permisos</b>" i permet l'accés a la càmera"</string>
-    <string name="permission_open_settings_camera_secondary">Per continuar, vés a <b>Configuració > Permisos</b>" i permet l'accés a la càmera i al micròfon"</string>
-    <string name="permission_open_settings_description">Per crear un vídeo nou, vés a <b>Configuració > Permisos</b>" i permet l'accés a la càmera i a l'emmagatzematge"</string>
-    <string name="permission_open_settings_microphone_secondary">Per continuar, vés a <b>Configuració > Permisos</b>" i permet l'accés al micròfon"</string>
-    <string name="permission_open_settings_secondary_description">Per crear un vídeo, vés a <b>Configuració > Permisos</b>" i permet l'accés a la càmera, al micròfon i a l'emmagatzematge"</string>
+    <string name="permission_open_settings_camera">Per gravar un vídeo nou, ves a <b>Configuració > Permisos</b>" i permet l'accés a la càmera"</string>
+    <string name="permission_open_settings_camera_secondary">Per continuar, ves a <b>Configuració > Permisos</b>" i permet l'accés a la càmera i al micròfon"</string>
+    <string name="permission_open_settings_description">Per crear un vídeo nou, ves a <b>Configuració > Permisos</b>" i permet l'accés a la càmera i a l'emmagatzematge"</string>
+    <string name="permission_open_settings_microphone_secondary">Per continuar, ves a <b>Configuració > Permisos</b>" i permet l'accés al micròfon"</string>
+    <string name="permission_open_settings_secondary_description">Per crear un vídeo, ves a <b>Configuració > Permisos</b>" i permet l'accés a la càmera, al micròfon i a l'emmagatzematge"</string>
     <string name="permission_title">"Comença l'espectacle"</string>
     <string name="permissions_missing_camera">"Per gravar un vídeo, permet l'accés a la càmera"</string>
     <string name="permissions_missing_camera_secondary">"Per continuar, permet l'accés a la càmera i al micròfon"</string>
@@ -1084,7 +1084,7 @@ després de l'anunci"</string>
     <string name="video_views">%1$,d visualitzacions</string>
     <string name="video_with_preview_image_error">No es pot previsualitzar el vídeo.</string>
     <string name="videos_added_to_tv_queue">Vídeos afegits a la cua</string>
-    <string name="visit_channel">Vés al canal</string>
+    <string name="visit_channel">Ves al canal</string>
     <string name="vr_auto_quality_tooltip">Qualitat: automàtica (%1$s)</string>
     <string name="vr_buffering_percent">A la memòria: %1$d%%</string>
     <string name="vr_click_to_recenter">Fes clic per tornar a centrar</string>

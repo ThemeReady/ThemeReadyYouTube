@@ -112,11 +112,11 @@
     <style name="GvrDialogTheme" parent="@android:style/Theme.Material.Light.Dialog" />
     <style name="InfoCards">
         <item name="android:foreground">?android:selectableItemBackground</item>
-        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardBackgroundColor">@android:color/white</item>
     </style>
     <style name="InfoCardsWatchNext">
         <item name="android:foreground">?android:selectableItemBackground</item>
-        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardBackgroundColor">@android:color/white</item>
     </style>
     <style name="Mdx.ProgressSmall" parent="@android:style/Widget.Material.ProgressBar.Small" />
     <style name="NewVersionUpgradeActivity" parent="@style/Theme.YouTube.Light.NoActionBar">

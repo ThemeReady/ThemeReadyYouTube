@@ -112,7 +112,7 @@
     .line 10
     sget v2, Labpg;->g:I
 
-    const v3, 0x7f0c01ed # @color/quantum_black_text
+    const/high16 v3, -0x67000000
 
     invoke-virtual {v1, v2, v3}, Landroid/content/res/TypedArray;->getColor(II)I
 

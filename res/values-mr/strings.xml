@@ -653,7 +653,7 @@
     <string name="overflow_captions_off">बंद</string>
     <string name="overflow_captions_on">चालू</string>
     <string name="overflow_quality">गुणवत्ता</string>
-    <string name="overflow_report">अहवाल द्या</string>
+    <string name="overflow_report">तक्रार नोंदवा</string>
     <string name="pause_and_buffer_mealbar_message">आपण अॅप सोडल्यास विराम दिलेल्या व्हिडिओंना बफर करणे सुरु ठेवा.</string>
     <string name="pause_and_buffer_mealbar_title">पार्श्वभूमी बफर</string>
     <string name="pause_and_buffer_notification_percentage">%1$d%%</string>
@@ -826,7 +826,7 @@
     <string name="remove_watched_header_tooltip_text">नवीन आहे! या सूचीमधील पाहिलेले सर्व व्हिडिओ सहज काढून टाका.</string>
     <string name="removed_from_watch_later">नंतर पहा मधून काढले</string>
     <string name="reply_added">प्रत्युत्तर जोडले</string>
-    <string name="report_button">अहवाल द्या</string>
+    <string name="report_button">तक्रार नोंदवा</string>
     <string name="report_dialog_cancel">रद्द करा</string>
     <string name="report_form_service_failed">अहवाल सेवा उपलब्ध नाही. कृपया पुन्हा प्रयत्न करा.</string>
     <string name="report_response_ok">ठीक आहे</string>

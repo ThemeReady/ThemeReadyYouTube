@@ -230,7 +230,7 @@
 
     sget v3, Lacvs;->x:I
 
-    const v4, 0x7f0c0323 # @color/quantum_white_text
+    const v4, 0x106000b
 
     .line 36
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getColor(I)I

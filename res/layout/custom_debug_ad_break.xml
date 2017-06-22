@@ -8,6 +8,6 @@
     </LinearLayout>
     <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ad_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/delete" android:layout_below="@id/position_layout" android:layout_toEndOf="@id/delete">
         <Spinner android:id="@id/ad" android:layout_width="220.0dip" android:layout_height="wrap_content" android:text="@string/ad_badge" />
-        <EditText android:textSize="16.0sp" android:id="@id/ad_entry" android:background="@color/full_transparent" android:focusable="false" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="wrap_content" android:hint="" />
+        <EditText android:textSize="16.0sp" android:id="@id/ad_entry" android:background="@android:color/white" android:focusable="false" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="wrap_content" android:hint="" />
     </LinearLayout>
 </RelativeLayout>

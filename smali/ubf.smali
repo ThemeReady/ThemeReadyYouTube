@@ -50,7 +50,7 @@
 
 # virtual methods
 .method public final synthetic get()Ljava/lang/Object;
-    .locals 5
+    .locals 6
 
     .prologue
     .line 8
@@ -84,8 +84,10 @@
 
     const-string v4, "OfflineRequestsStatsStore.prefs"
 
+    const/4 v5, 0x0
+
     .line 12
-    invoke-static {v0, v4}, Loso;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-virtual {v0, v4, v5}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v0
 

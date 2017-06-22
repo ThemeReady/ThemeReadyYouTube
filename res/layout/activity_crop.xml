@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/image" android:background="@color/full_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" android:contentDescription="@string/crop_image_description" />
+    <ImageView android:id="@id/image" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" android:contentDescription="@string/crop_image_description" />
     <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <View android:id="@id/crop_top_mask" android:background="@color/crop_mask_background" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
         <LinearLayout android:orientation="horizontal" android:id="@id/crop_middle_mask" android:layout_width="fill_parent" android:layout_height="wrap_content">

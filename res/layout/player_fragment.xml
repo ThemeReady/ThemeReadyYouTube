@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:id="@id/watch_player_container" android:layout_width="fill_parent" android:layout_height="fill_parent" _xmlns:android="http://schemas.android.com/apk/res/android" xmlns:_xmlns="xmlns"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.google.android.apps.youtube.app.player.YouTubePlayerView android:layout_gravity="center_horizontal" android:id="@id/watch_player" android:background="@color/full_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/accessibility_player" />
+    <com.google.android.apps.youtube.app.player.YouTubePlayerView android:layout_gravity="center_horizontal" android:id="@id/watch_player" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/accessibility_player" />
     <FrameLayout android:id="@id/remote_control_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
 </FrameLayout>

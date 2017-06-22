@@ -877,7 +877,7 @@
     <string name="remove_watched_header_tooltip_text">جدید! از این فهرست همه ویدیوهای تماشا شده را راحت حذف کنید.</string>
     <string name="removed_from_watch_later">از تماشا در فرصتی دیگر برداشته شد</string>
     <string name="reply_added">پاسخ اضافه شد</string>
-    <string name="report_button">گزارش</string>
+    <string name="report_button">گزارش تخلف</string>
     <string name="report_dialog_cancel">لغو</string>
     <string name="report_form_service_failed">سرویس گزارش دردسترس نیست. لطفاً دوباره تلاش کنید.</string>
     <string name="report_response_ok">تأیید</string>

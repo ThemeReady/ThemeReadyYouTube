@@ -688,7 +688,7 @@
     <string name="overflow_captions_off">ጠፍቷል</string>
     <string name="overflow_captions_on">በርቷል</string>
     <string name="overflow_quality">ጥራት</string>
-    <string name="overflow_report">ሪፖርት አድርግ</string>
+    <string name="overflow_report">ሪፖርት ያድርጉ</string>
     <string name="pause_and_buffer_mealbar_message">መተግበሪያውን የሚተውት ከሆነ ለአፍታ የቆሙ ቪድዮዎች ማቋታቸውን ይቀጥላሉ።</string>
     <string name="pause_and_buffer_mealbar_title">ከበስተጀርባ ማቋት</string>
     <string name="pause_and_buffer_notification_percentage">%1$d%%</string>
@@ -861,7 +861,7 @@
     <string name="remove_watched_header_tooltip_text">አዲስ! ሁሉንም የሚመለከቷቸውን ቪድዮዎች በሙሉ በቀላሉ ያስወግዷቸው።</string>
     <string name="removed_from_watch_later">ከበኋላ ይመልከቱ ዝርዝር ተወግዷል</string>
     <string name="reply_added">ምላሽ ታክሏል</string>
-    <string name="report_button">ሪፖርት አድርግ</string>
+    <string name="report_button">ሪፖርት ያድርጉ</string>
     <string name="report_dialog_cancel">ይቅር</string>
     <string name="report_form_service_failed">የሪፖርት አገልግሎት አልተገኘም። እባክዎ እንደገና ይሞክሩ።</string>
     <string name="report_response_ok">እሺ</string>

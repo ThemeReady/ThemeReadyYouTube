@@ -701,7 +701,7 @@
     <string name="overflow_captions_off">بدون ترجمة</string>
     <string name="overflow_captions_on">مع ترجمة</string>
     <string name="overflow_quality">الجودة</string>
-    <string name="overflow_report">إبلاغ</string>
+    <string name="overflow_report">الإبلاغ</string>
     <string name="pause_and_buffer_mealbar_message">يستمر التخزين المؤقت لمقاطع الفيديو المتوقفة مؤقتًا عن التشغيل إذا غادرت التطبيق.</string>
     <string name="pause_and_buffer_mealbar_title">تخزين مؤقت في الخلفية</string>
     <string name="pause_and_buffer_notification_percentage">%1$d%%</string>
@@ -876,7 +876,7 @@
     <string name="remove_watched_header_tooltip_text">جديد! يمكنك إزالة كل مقاطع الفيديو التي تمت مشاهدتها من هذه القائمة.</string>
     <string name="removed_from_watch_later">تمت إزالة الفيديو من القائمة \"مشاهدة لاحقًا\"</string>
     <string name="reply_added">تمت إضافة الرد</string>
-    <string name="report_button">إبلاغ</string>
+    <string name="report_button">الإبلاغ</string>
     <string name="report_dialog_cancel">إلغاء</string>
     <string name="report_form_service_failed">خدمة الإبلاغ غير متوفرة. يُرجى إعادة المحاولة.</string>
     <string name="report_response_ok">موافق</string>

@@ -702,7 +702,7 @@ Nu s-au găsit videoclipuri salvate"</string>
     <string name="overflow_captions_off">DEZACTIVAT</string>
     <string name="overflow_captions_on">ACTIVAT</string>
     <string name="overflow_quality">Calitate</string>
-    <string name="overflow_report">Raportați</string>
+    <string name="overflow_report">Raportează</string>
     <string name="pause_and_buffer_mealbar_message">Dacă părăsești aplicația, aplicarea zonei tampon continuă pentru videoclipurile întrerupte.</string>
     <string name="pause_and_buffer_mealbar_title">Aplicare zonă tampon în fundal</string>
     <string name="pause_and_buffer_notification_percentage">%1$d %%</string>
@@ -877,7 +877,7 @@ Nu s-au găsit videoclipuri salvate"</string>
     <string name="remove_watched_header_tooltip_text">Nou! Elimină rapid videoclipurile vizionate din listă.</string>
     <string name="removed_from_watch_later">Eliminate din Vizionează mai târziu.</string>
     <string name="reply_added">Răspuns adăugat</string>
-    <string name="report_button">Raportați</string>
+    <string name="report_button">Raportează</string>
     <string name="report_dialog_cancel">Anulează</string>
     <string name="report_form_service_failed">Serviciul de raportare nu este disponibil. Încearcă din nou.</string>
     <string name="report_response_ok">OK</string>

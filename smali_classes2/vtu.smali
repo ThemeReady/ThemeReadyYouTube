@@ -459,7 +459,7 @@
 
     :array_0
     .array-data 4
-        -0x1
+        -0x19dee9
         -0x575758
     .end array-data
 

@@ -860,7 +860,7 @@
     <string name="remove_watched_header_tooltip_text">全新功能！輕易從此清單中移除所有已觀看的影片。</string>
     <string name="removed_from_watch_later">已從「稍後觀看」清單中移除</string>
     <string name="reply_added">已新增回覆</string>
-    <string name="report_button">報告</string>
+    <string name="report_button">舉報</string>
     <string name="report_dialog_cancel">取消</string>
     <string name="report_form_service_failed">舉報服務無法使用，請再試一次。</string>
     <string name="report_response_ok">確定</string>

@@ -13,8 +13,10 @@
 
     const-string v1, "DelayedEventMetricsStore.prefs"
 
+    const/4 v2, 0x0
+
     .line 2
-    invoke-static {p0, v1}, Loso;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-virtual {p0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v1
 

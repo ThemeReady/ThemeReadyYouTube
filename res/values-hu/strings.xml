@@ -701,7 +701,7 @@ Nincs elmentett videó."</string>
     <string name="overflow_captions_off">KI</string>
     <string name="overflow_captions_on">BE</string>
     <string name="overflow_quality">Minőség</string>
-    <string name="overflow_report">Jelentés</string>
+    <string name="overflow_report">Bejelentés</string>
     <string name="pause_and_buffer_mealbar_message">A szüneteltetett videók az alkalmazásból való kilépést követően is folytatják a pufferelést.</string>
     <string name="pause_and_buffer_mealbar_title">Háttérpuffer</string>
     <string name="pause_and_buffer_notification_percentage">%1$d%%</string>
@@ -876,7 +876,7 @@ Nincs elmentett videó."</string>
     <string name="remove_watched_header_tooltip_text">Új! Egyszerűen eltávolíthatsz minden megtekintett videót a listából.</string>
     <string name="removed_from_watch_later">Eltávolítva a megnézendőkből</string>
     <string name="reply_added">Válasz létrehozva</string>
-    <string name="report_button">Jelentés</string>
+    <string name="report_button">Bejelentés</string>
     <string name="report_dialog_cancel">Mégse</string>
     <string name="report_form_service_failed">A jelentési szolgáltatás nem érhető el. Próbáld újra később.</string>
     <string name="report_response_ok">Rendben</string>
