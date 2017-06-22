@@ -24,8 +24,4 @@
     <fraction name="square_aspect_ratio">100.0%</fraction>
     <fraction name="unlimited_header_aspect_ratio">83.00001%</fraction>
     <fraction name="upload_edit_video_fragment_max_video_height">50.0%</fraction>
-    <item type="fraction" name="APKTOOL_DUMMY_a">false</item>
-    <item type="fraction" name="APKTOOL_DUMMY_b">false</item>
-    <item type="fraction" name="APKTOOL_DUMMY_e">false</item>
-    <item type="fraction" name="APKTOOL_DUMMY_16">false</item>
 </resources>

@@ -207,7 +207,7 @@
 
     check-cast v0, Lvru;
 
-    const v3, -0x19dee9
+    const v3, -0x1
 
     .line 22
     invoke-static {v3}, Lvpb;->b(I)[F
@@ -316,7 +316,7 @@
 
     :array_0
     .array-data 4
-        -0x19dee9
+        -0x1
         -0x575758
         -0x1
     .end array-data
