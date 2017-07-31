@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lc_thumbnail_preview_margin_horizontal">32.0dip</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@color/live_chat_button_kevlar_color" />
+    <item>
+        <ripple android:color="@color/live_chat_button_kevlar_color_pressed">
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/live_chat_button_kevlar_color" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>

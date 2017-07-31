@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="background_audio_policy_entries">
+        <item>@string/background_audio_policy_on</item>
+        <item>@string/background_audio_policy_on_if_hh</item>
+        <item>@string/background_audio_policy_off</item>
+    </string-array>
+    <string-array name="background_audio_policy_values">
+        <item>@string/on</item>
+        <item>@string/on_if_hh</item>
+        <item>@string/off</item>
+    </string-array>
+    <array name="design_default_color_palette_primary" />
+    <array name="design_default_color_palette_secondary" />
+    <string-array name="double_tap_length_entries">
+        <item>@string/pref_double_tap_skip_entry_5s</item>
+        <item>@string/pref_double_tap_skip_entry_10s</item>
+        <item>@string/pref_double_tap_skip_entry_15s</item>
+        <item>@string/pref_double_tap_skip_entry_20s</item>
+        <item>@string/pref_double_tap_skip_entry_30s</item>
+        <item>@string/pref_double_tap_skip_entry_60s</item>
+    </string-array>
+    <string-array name="double_tap_length_values">
+        <item>@string/pref_double_tap_skip_entry_5s</item>
+        <item>@string/pref_double_tap_skip_entry_10s</item>
+        <item>@string/pref_double_tap_skip_entry_15s</item>
+        <item>@string/pref_double_tap_skip_entry_20s</item>
+        <item>@string/pref_double_tap_skip_entry_30s</item>
+        <item>@string/pref_double_tap_skip_entry_60s</item>
+    </string-array>
+    <string-array name="inline_global_entries">
+        <item>@string/inline_global_play_pause_on</item>
+        <item>@string/inline_global_play_pause_on_wifi_only</item>
+        <item>@string/inline_global_play_pause_off</item>
+    </string-array>
+    <string-array name="inline_global_values">
+        <item>@string/inline_global_play_pause_on_value</item>
+        <item>@string/inline_global_play_pause_on_wifi_only_value</item>
+        <item>@string/inline_global_play_pause_off_value</item>
+    </string-array>
+    <string-array name="max_mobile_video_quality_entries">
+        <item>@string/max_mobile_video_quality_datasaver</item>
+        <item>@string/max_mobile_video_quality_144p</item>
+        <item>@string/max_mobile_video_quality_240p</item>
+        <item>@string/max_mobile_video_quality_360p</item>
+        <item>@string/max_mobile_video_quality_480p</item>
+        <item>@string/max_mobile_video_quality_720p</item>
+        <item>@string/max_mobile_video_quality_auto</item>
+    </string-array>
+    <string-array name="max_mobile_video_quality_values">
+        <item>@string/pref_max_mobile_video_quality_value_datasaver</item>
+        <item>@string/pref_max_mobile_video_quality_value_144p</item>
+        <item>@string/pref_max_mobile_video_quality_value_240p</item>
+        <item>@string/pref_max_mobile_video_quality_value_360p</item>
+        <item>@string/pref_max_mobile_video_quality_value_480p</item>
+        <item>@string/pref_max_mobile_video_quality_value_720p</item>
+        <item>@string/pref_max_mobile_video_quality_value_auto</item>
+    </string-array>
+    <string-array name="mdx_caster_category_override_entries">
+        <item>"None (don't override)"</item>
+        <item>Unknown</item>
+        <item>Never Caster</item>
+        <item>Seldom Caster</item>
+        <item>Sometimes Caster</item>
+        <item>Frequest Caster</item>
+    </string-array>
+    <string-array name="mdx_caster_category_override_values">
+        <item>@string/mdx_caster_category_override_default_value</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="mdx_local_transport_entries">
+        <item>@string/mdx_local_transport_none_entry</item>
+        <item>@string/mdx_local_transport_websocket_entry</item>
+        <item>@string/mdx_local_transport_browser_channel_entry</item>
+    </string-array>
+    <string-array name="mdx_local_transport_values">
+        <item>@string/mdx_local_transport_none_value</item>
+        <item>@string/mdx_local_transport_websocket_value</item>
+        <item>@string/mdx_local_transport_browser_channel_value</item>
+    </string-array>
+    <string-array name="upload_policy_entries">
+        <item>@string/upload_when_on_wifi</item>
+        <item>@string/upload_on_any_network</item>
+    </string-array>
+    <string-array name="upload_policy_values">
+        <item>@string/upload_network_policy_pref_value_wifi</item>
+        <item>@string/upload_network_policy_pref_value_any</item>
+    </string-array>
+    <string-array name="upload_quality_entries">
+        <item>@string/upload_quality_360p</item>
+        <item>@string/upload_quality_480p</item>
+        <item>@string/upload_quality_720p</item>
+        <item>@string/upload_quality_1080p</item>
+        <item>@string/upload_quality_original</item>
+    </string-array>
+    <string-array name="upload_quality_values">
+        <item>@string/upload_quality_value_360p</item>
+        <item>@string/upload_quality_value_480p</item>
+        <item>@string/upload_quality_value_720p</item>
+        <item>@string/upload_quality_value_1080p</item>
+        <item>@string/upload_quality_value_original</item>
+    </string-array>
+</resources>

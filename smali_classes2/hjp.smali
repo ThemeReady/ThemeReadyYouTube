@@ -1,0 +1,176 @@
+.class public final Lhjp;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lafci;
+
+
+# instance fields
+.field private a:Lafce;
+
+.field private b:Lafec;
+
+.field private c:Lafec;
+
+.field private d:Lafec;
+
+.field private e:Lafec;
+
+.field private f:Lafec;
+
+.field private g:Lafec;
+
+.field private h:Lafec;
+
+.field private i:Lafec;
+
+.field private j:Lafec;
+
+.field private k:Lafec;
+
+.field private l:Lafec;
+
+.field private m:Lafec;
+
+.field private n:Lafec;
+
+
+# direct methods
+.method public constructor <init>(Lafce;Lafec;Lafec;Lafec;Lafec;Lafec;Lafec;Lafec;Lafec;Lafec;Lafec;Lafec;Lafec;Lafec;)V
+    .locals 0
+
+    .prologue
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lhjp;->a:Lafce;
+
+    .line 3
+    iput-object p2, p0, Lhjp;->b:Lafec;
+
+    .line 4
+    iput-object p3, p0, Lhjp;->c:Lafec;
+
+    .line 5
+    iput-object p4, p0, Lhjp;->d:Lafec;
+
+    .line 6
+    iput-object p5, p0, Lhjp;->e:Lafec;
+
+    .line 7
+    iput-object p6, p0, Lhjp;->f:Lafec;
+
+    .line 8
+    iput-object p7, p0, Lhjp;->g:Lafec;
+
+    .line 9
+    iput-object p8, p0, Lhjp;->h:Lafec;
+
+    .line 10
+    iput-object p9, p0, Lhjp;->i:Lafec;
+
+    .line 11
+    iput-object p10, p0, Lhjp;->j:Lafec;
+
+    .line 12
+    iput-object p11, p0, Lhjp;->k:Lafec;
+
+    .line 13
+    iput-object p12, p0, Lhjp;->l:Lafec;
+
+    .line 14
+    iput-object p13, p0, Lhjp;->m:Lafec;
+
+    .line 15
+    iput-object p14, p0, Lhjp;->n:Lafec;
+
+    .line 16
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic get()Ljava/lang/Object;
+    .locals 15
+
+    .prologue
+    .line 18
+    iget-object v14, p0, Lhjp;->a:Lafce;
+
+    new-instance v0, Lhip;
+
+    iget-object v1, p0, Lhjp;->b:Lafec;
+
+    iget-object v2, p0, Lhjp;->c:Lafec;
+
+    iget-object v3, p0, Lhjp;->d:Lafec;
+
+    iget-object v4, p0, Lhjp;->e:Lafec;
+
+    iget-object v5, p0, Lhjp;->f:Lafec;
+
+    iget-object v6, p0, Lhjp;->g:Lafec;
+
+    iget-object v7, p0, Lhjp;->h:Lafec;
+
+    iget-object v8, p0, Lhjp;->i:Lafec;
+
+    .line 19
+    invoke-interface {v8}, Lafec;->get()Ljava/lang/Object;
+
+    move-result-object v8
+
+    check-cast v8, Lhrd;
+
+    iget-object v9, p0, Lhjp;->j:Lafec;
+
+    .line 20
+    invoke-interface {v9}, Lafec;->get()Ljava/lang/Object;
+
+    move-result-object v9
+
+    check-cast v9, Lhrh;
+
+    iget-object v10, p0, Lhjp;->k:Lafec;
+
+    iget-object v11, p0, Lhjp;->l:Lafec;
+
+    .line 21
+    invoke-interface {v11}, Lafec;->get()Ljava/lang/Object;
+
+    move-result-object v11
+
+    check-cast v11, Lhsb;
+
+    iget-object v12, p0, Lhjp;->m:Lafec;
+
+    .line 22
+    invoke-interface {v12}, Lafec;->get()Ljava/lang/Object;
+
+    move-result-object v12
+
+    check-cast v12, Lhqo;
+
+    iget-object v13, p0, Lhjp;->n:Lafec;
+
+    .line 23
+    invoke-interface {v13}, Lafec;->get()Ljava/lang/Object;
+
+    move-result-object v13
+
+    check-cast v13, Lhqt;
+
+    invoke-direct/range {v0 .. v13}, Lhip;-><init>(Lafec;Lafec;Lafec;Lafec;Lafec;Lafec;Lafec;Lhrd;Lhrh;Lafec;Lhsb;Lhqo;Lhqt;)V
+
+    .line 24
+    invoke-static {v14, v0}, Lafcn;->a(Lafce;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lhip;
+
+    .line 25
+    return-object v0
+.end method

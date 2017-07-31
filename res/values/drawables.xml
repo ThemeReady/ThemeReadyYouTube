@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="collapse_live_chat_drawer_icon">@drawable/quantum_ic_keyboard_arrow_down_grey600_24</item>
+    <item type="drawable" name="dogfood_warning" />
+    <item type="drawable" name="expand_live_chat_drawer_icon">@drawable/quantum_ic_keyboard_arrow_up_grey600_24</item>
+    <item type="drawable" name="live_chat_send_icon">@drawable/quantum_ic_send_grey600_24</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="@string/pref_developer_ppg_host_title" android:key="PPGHost" android:defaultValue="" />
+    <EditTextPreference android:title="@string/pref_developer_innertubez_title" android:key="com.google.android.libraries.youtube.innertube.pref.innertubez" android:defaultValue="" />
+    <EditTextPreference android:title="@string/pref_developer_vix_snapshot_key" android:key="com.google.android.libraries.youtube.net.constant.netc.pref.vix_snapshot_key" android:defaultValue="" />
+    <PreferenceScreen android:title="Logging">
+        <SwitchPreference android:title="@string/pref_developer_api_request_logging_title" android:key="ApiRequestLogging" android:summary="@string/pref_developer_api_request_logging_summary" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/pref_developer_basic_request_logging_title" android:key="BasicRequestLogging" android:summary="@string/pref_developer_basic_request_logging_summary" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/pref_developer_full_api_response_logging_title" android:key="FullApiResponseLogging" android:summary="@string/pref_developer_full_api_response_logging_summary" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/pref_developer_debug_interaction_logging_title" android:key="DebugInteractionLogging" android:summary="@string/pref_developer_debug_interaction_logging_summary" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/pref_developer_debug_gel_logging_title" android:key="DebugCsiGelLogging" android:summary="@string/pref_developer_debug_gel_logging_summary" android:defaultValue="false" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Offline">
+        <Preference android:title="@string/pref_developer_show_offline_http_queue_title" android:key="ShowOfflineHttpQueue" android:summary="@string/pref_developer_show_offline_http_queue_summary" />
+        <Preference android:title="@string/pref_developer_offline_refresh_title" android:key="OfflineRefresh" android:summary="@string/pref_developer_offline_refresh_summary" />
+        <Preference android:title="@string/pref_developer_offline_playlist_autosync_title" android:key="OfflinePlaylistAutoSync" android:summary="@string/pref_developer_offline_playlist_autosync_summary" />
+        <Preference android:title="@string/pref_developer_offline_time_window_title" android:key="OfflineTimeWindow" android:summary="@string/pref_developer_offline_time_window_summary" />
+        <Preference android:title="@string/pref_developer_offline_browse_response_sync_title" android:key="OfflineBrowseResponseSync" android:summary="@string/pref_developer_offline_browse_response_sync_summary" />
+        <Preference android:title="@string/pref_developer_trigger_auto_offline_title" android:key="TriggerAO" android:summary="@string/pref_developer_trigger_auto_offline_summary" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Guide">
+        <Preference android:title="@string/pref_developer_request_guide_title" android:key="RequestGuide" android:summary="@string/pref_developer_request_guide_summary" />
+        <Preference android:title="@string/pref_developer_remove_guide_title" android:key="RemoveGuide" android:summary="@string/pref_developer_remove_guide_summary" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Ads">
+        <Preference android:title="@string/pref_developer_online_ads_title" android:key="OnlineAd" android:summary="@string/pref_developer_online_ads_summary" />
+        <Preference android:title="@string/pref_developer_offline_ad_title" android:key="OfflineAd" android:summary="@string/pref_developer_offline_ad_summary" />
+    </PreferenceScreen>
+    <Preference android:title="@string/pref_developer_force_innertube_capabilities_title" android:key="ForceInnertubeCapabilities" android:summary="@string/pref_developer_force_innertube_capabilities_summary" />
+    <PreferenceScreen android:title="MDX">
+        <ListPreference android:entries="@array/mdx_caster_category_override_entries" android:title="@string/pref_developer_mdx_caster_category_override" android:key="MdxCasterCategoryOverride" android:summary="@string/pref_developer_mdx_caster_category_override" android:defaultValue="@string/mdx_caster_category_override_default_value" android:entryValues="@array/mdx_caster_category_override_values" />
+        <ListPreference android:entries="@array/mdx_local_transport_entries" android:title="@string/pref_developer_mdx_local_transport" android:key="MdxLocalTransport" android:summary="@string/pref_developer_mdx_local_transport" android:defaultValue="@string/mdx_local_transport_none_value" android:entryValues="@array/mdx_local_transport_values" />
+        <Preference android:title="@string/mdx_clear_auto_cast_cool_down" android:key="MdxAutoCastCancelCoolDown" android:summary="@string/mdx_clear_auto_cast_cool_down_summary" />
+        <Preference android:title="@string/mdx_clear_auto_cast_cancel_count" android:key="MdxAutoCastCancelCount" android:summary="@string/mdx_clear_auto_cast_cancel_count_summary" />
+        <PreferenceScreen android:title="Background">
+            <SwitchPreference android:title="@string/mdx_background_scan_logger" android:key="MdxBackgroundScanLogger" android:defaultValue="false" />
+            <EditTextPreference android:title="@string/mdx_local_notifications_device_whitelist" android:key="MdxLocalNotificationsDeviceWhiteList" android:defaultValue="" />
+            <CheckBoxPreference android:title="@string/mdx_local_notifications_aggressive_scan" android:key="MdxLocalNotificationsAggressiveScan" android:defaultValue="false" />
+            <CheckBoxPreference android:title="@string/mdx_local_notifications_simulate_playback_error" android:key="MdxLocalNotificationsSimulatePlaybackError" android:defaultValue="false" />
+            <CheckBoxPreference android:title="@string/mdx_local_notifications_persist_notification" android:key="MdxLocalNotificationsPersistNotification" android:defaultValue="false" />
+            <CheckBoxPreference android:title="@string/mdx_local_notifications_bypass_cap_limit" android:key="MdxLocalNotificationsBypassCapLimit" android:defaultValue="false" />
+            <CheckBoxPreference android:title="@string/mdx_local_notifications_override_config" android:key="MdxLocalNotificationsOverrideConfig" android:defaultValue="false" />
+            <EditTextPreference android:title="@string/mdx_local_notifications_small_bitmap_url" android:key="MdxLocalNotificationsSmallBitmapUrl" android:defaultValue="" />
+            <EditTextPreference android:title="@string/mdx_local_notifications_large_bitmap_url" android:key="MdxLocalNotificationsLargeBitmapUrl" android:defaultValue="" />
+            <CheckBoxPreference android:title="@string/mdx_local_notifications_show_bitmap_overlay" android:key="MdxLocalNotificationsShowBitmapOverlay" android:defaultValue="true" />
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <Preference android:title="@string/pref_developer_detour_header" android:key="net_detour_header" />
+    <SwitchPreference android:title="@string/pref_developer_leak_detector_title" android:key="leak_detector" android:summary="@string/pref_developer_leak_detector_summary" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/pref_developer_hsv_title" android:key="hsv" android:summary="@string/pref_developer_hsv_summary" android:defaultValue="false" />
+    <Preference android:title="@string/pref_developer_sc_title" android:key="SC" />
+    <CheckBoxPreference android:title="@string/pref_developer_memory_monitor_title" android:key="memory_monitor" android:summary="@string/pref_developer_memory_monitor_summary" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/pref_developer_ypc_fake_wallet_title" android:key="enable_ypc_fake_wallet" android:summary="@string/pref_developer_ypc_fake_wallet_summary" android:defaultValue="false" />
+    <PreferenceScreen android:title="Mobile dataplan">
+        <Preference android:title="@string/pref_developer_mobile_data_plan_debug_info_title" android:key="MobileDataPlanDebugInfo" android:summary="@string/pref_developer_mobile_data_plan_debug_info_summary" />
+        <ListPreference android:title="@string/pref_developer_mobile_data_plan_api_environment_title" android:key="MobileDataPlanApiEnvironment" android:summary="@string/pref_developer_mobile_data_plan_api_environment_summary" android:defaultValue="0" />
+        <EditTextPreference android:title="@string/pref_developer_mobile_data_plan_api_client_ip" android:key="MobileDataPlanApiClientIp" android:defaultValue="" />
+        <EditTextPreference android:numeric="integer" android:title="@string/pref_developer_mobile_data_plan_api_carrier_id" android:key="MobileDataPlanApiCarrierId" android:defaultValue="0" android:inputType="number" />
+        <EditTextPreference android:title="@string/pref_developer_mobile_data_plan_api_cpid" android:key="MobileDataPlanApiCpid" android:defaultValue="" />
+    </PreferenceScreen>
+</PreferenceScreen>

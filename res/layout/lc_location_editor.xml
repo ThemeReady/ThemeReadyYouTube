@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" _xmlns:android="http://schemas.android.com/apk/res/android" xmlns:_xmlns="xmlns"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingLeft="@dimen/lc_pre_stream_setting_text_margin_start" android:paddingTop="@dimen/lc_pre_stream_setting_text_padding_vertical" android:paddingRight="@dimen/lc_pre_stream_setting_text_margin_start" android:paddingBottom="@dimen/lc_pre_stream_setting_text_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/body_text_size" android:textColor="@color/lc_white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/location_setting_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:drawablePadding="@dimen/lc_activity_horizontal_margin" android:layout_weight="1.0" android:textIsSelectable="true" />
+        <ImageView android:id="@id/location_action_icon" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+    </LinearLayout>
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lc_pre_stream_location_horizontal_margin" android:layout_marginRight="@dimen/lc_pre_stream_location_horizontal_margin">
+        <LinearLayout android:orientation="horizontal" android:id="@id/place_suggestions" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.ui.watch.nextgenwatch.NextGenWatchLayout android:id="@id/next_gen_watch_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" res-auto:playerViewId="@id/player_fragment_container" res-auto:playerControlsViewId="@id/player_controls_view" res-auto:playerControlsTimeBarId="@id/player_controls_time_bar_view" res-auto:metadataViewId="@id/video_info_fragment" res-auto:scrimViewId="@id/scrim_view" _xmlns:android="http://schemas.android.com/apk/res/android" _xmlns:yt="http://schemas.android.com/apk/res-auto" xmlns:_xmlns="xmlns"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:res-auto="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/scrim_view" android:background="#70000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/player_fragment_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <fragment android:name="com.google.android.apps.youtube.app.fragments.VideoInfoFragment" android:id="@id/video_info_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/floaty_bar_controls" />
+    <include layout="@layout/watch_while_layout_coordinator_layout" />
+</com.google.android.apps.youtube.app.ui.watch.nextgenwatch.NextGenWatchLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" _xmlns:android="http://schemas.android.com/apk/res/android" _xmlns:tools="http://schemas.android.com/tools" _xmlns:yt="http://schemas.android.com/apk/res-auto" xmlns:_xmlns="xmlns"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/conversation_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/conversation_list_stub" android:inflatedId="@id/conversation_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <include android:id="@id/conversation_replies_disabled" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/conversation_replies_disabled" />
+        <include android:id="@id/loading_progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/conversation_loading_progress_bar" />
+        <ViewStub android:id="@id/load_error_stub" android:layout="@layout/conversation_load_error" android:inflatedId="@id/load_error" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:id="@id/conversation_reply_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conversation_reply_shadow_negative_height" android:elevation="8.0dip">
+            <View android:id="@id/shadow" android:background="@color/conversation_reply_shadow_compat" android:layout_width="fill_parent" android:layout_height="@dimen/conversation_reply_shadow_height" />
+            <include android:id="@id/conversation_reply_wrapper" android:layout_width="fill_parent" android:layout_height="@dimen/conversation_reply_view_init_height" layout="@layout/conversation_reply_view" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.libraries.youtube.conversation.ui.StickyPlayerContainer android:id="@id/conversation_sticky_player" android:layout_width="fill_parent" android:layout_height="wrap_content" res-auto:swipeToDismissThreshold="88.0dip" xmlns:res-auto="http://schemas.android.com/apk/res-auto" />
+    <View android:id="@id/chat_version" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

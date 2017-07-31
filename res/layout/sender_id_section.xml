@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sender_id_section" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="48.0dip" _xmlns:android="http://schemas.android.com/apk/res/android" _xmlns:yt="http://schemas.android.com/apk/res-auto" xmlns:_xmlns="xmlns"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceSubhead" android:ellipsize="end" android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" res-auto:robotoFont="regular" xmlns:res-auto="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sharing_options" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="48.0dip" android:minHeight="48.0dip">
+        <com.google.android.libraries.youtube.share.ui.ContactImageHolder android:id="@id/sharer_thumbnail" android:layout_width="@dimen/share_panel_sharer_thumbnail_size" android:layout_height="@dimen/share_panel_sharer_thumbnail_size" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_keyboard_arrow_down_grey600_24" android:contentDescription="@string/accessibility_sharing_options" />
+    </LinearLayout>
+</LinearLayout>
