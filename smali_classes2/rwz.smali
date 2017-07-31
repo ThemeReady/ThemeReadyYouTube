@@ -63,7 +63,7 @@
     iget-object v0, v0, Lrwp;->ad:Landroid/view/View;
 
     .line 4
-    const/4 v1, -0x1
+    const/4 v1, 0x0 #00000000 (Transparent)
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundColor(I)V
 

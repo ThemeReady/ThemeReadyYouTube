@@ -461,7 +461,7 @@
 
     :array_0
     .array-data 4
-        -0x19dee9
+        -0x1 #ffffffff (White)
         -0x575758
     .end array-data
 

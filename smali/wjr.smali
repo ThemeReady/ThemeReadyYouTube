@@ -65,11 +65,11 @@
     .locals 7
 
     .prologue
-    const v6, -0x1744d5
+    const v6, -0x1
 
-    const v5, -0xd86c1a
+    const v5, -0xd
 
-    const v4, -0x19dee9
+    const v4, -0x1
 
     const/4 v3, 0x1
 

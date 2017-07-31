@@ -1892,7 +1892,7 @@
     iget-object v0, p0, Lwjy;->h:Lwkz;
 
     .line 197
-    const v1, -0x33000001    # -1.3421772E8f
+    const/4 v1, -0x1   #ffffffff (White)
 
     iput v1, v0, Lwkz;->l:I
 

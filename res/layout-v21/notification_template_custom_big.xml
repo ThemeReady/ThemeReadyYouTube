@@ -11,7 +11,7 @@
                 <TextView android:textAppearance="@style/TextAppearance.AppCompat.Notification.Info" android:layout_gravity="end|bottom|center" android:id="@id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:singleLine="true" />
             </FrameLayout>
         </LinearLayout>
-        <ImageView android:id="@id/action_divider" android:background="#29000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <ImageView android:id="@id/action_divider" android:background="@color/carousel_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
         <LinearLayout android:orientation="horizontal" android:id="@id/actions" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="-8.0dip" />
     </LinearLayout>
 </FrameLayout>

@@ -52,7 +52,7 @@
     iput v0, p0, Lwkz;->k:I
 
     .line 3
-    const v0, -0x33000001    # -1.3421772E8f
+    const/4 v0, -0x1    #ffffffff (White)
 
     iput v0, p0, Lwkz;->l:I
 

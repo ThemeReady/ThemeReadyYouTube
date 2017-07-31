@@ -273,7 +273,7 @@
     iget-object v1, v1, Laam;->b:Laaq;
 
     .line 41
-    const v2, -0x50506
+    const v2, -0xcfcfd0 #ff303030 (background_material_dark)
 
     iput v2, v1, Laaq;->v:I
 

@@ -281,7 +281,7 @@
     invoke-virtual {v1, v2, v3}, Landroid/view/Window;->setLayout(II)V
 
     .line 37
-    const v2, 0x106000b
+    const v2, 0x7f0c0037 # @color/background_floating_material_light
 
     invoke-virtual {v1, v2}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
 

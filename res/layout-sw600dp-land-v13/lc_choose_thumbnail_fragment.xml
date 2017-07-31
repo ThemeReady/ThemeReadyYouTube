@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" _xmlns:android="http://schemas.android.com/apk/res/android" _xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:_xmlns="xmlns"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/choose_thumbnail_content" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <RelativeLayout android:id="@id/choose_thumbnail_content" android:background="@color/full_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <include android:id="@id/thumbnail_top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/lc_choose_thumbnail_fragment_top_bar" />
         <android.support.constraint.ConstraintLayout android:id="@id/thumbnail_capture_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/thumbnail_top_bar">
             <android.support.constraint.Guideline android:orientation="horizontal" android:id="@id/thumbnail_guideline_top" android:layout_width="fill_parent" android:layout_height="fill_parent" res-auto:layout_constraintGuide_percent="@dimen/lc_thumbnail_viewport_top_percent" xmlns:res-auto="http://schemas.android.com/apk/res-auto" />

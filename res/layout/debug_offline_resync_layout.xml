@@ -9,6 +9,6 @@
     </LinearLayout>
     <TextView android:layout_gravity="center_horizontal" android:id="@id/not_signed_in_error_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="Please sign into an account within the app to test offline resync." />
     <ScrollView android:id="@id/logs_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="5.0dip" android:layout_weight="1.0">
-        <TextView android:textSize="@dimen/small_font_size" android:textColor="@android:color/black" android:id="@id/logs_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/small_font_size" android:textColor="@color/primary_font" android:id="@id/logs_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
     </ScrollView>
 </LinearLayout>

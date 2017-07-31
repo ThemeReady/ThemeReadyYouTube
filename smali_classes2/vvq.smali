@@ -202,7 +202,7 @@
 
     check-cast v0, Lvrw;
 
-    const v3, -0x19dee9
+    const v3, -0x1 #ffffffff (White)
 
     .line 28
     invoke-static {v3}, Lvqb;->b(I)[F
@@ -311,7 +311,7 @@
 
     :array_0
     .array-data 4
-        -0x19dee9
+        -0x1 #ffffffff (White)
         -0x575758
         -0x1
     .end array-data

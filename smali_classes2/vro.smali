@@ -145,7 +145,7 @@
 
     check-cast v0, Lvrw;
 
-    const v3, -0x19dee9
+    const v3, -0x1 #ffffffff (White)
 
     .line 18
     invoke-static {v3}, Lvqb;->b(I)[F
